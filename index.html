@@ -1,1480 +1,2385 @@
- <!doctype html>
-<!doctype html>
-<html>
- <head>
-     <title>Drop down Menu bar</title>
-<style>
-   *{
-      margin: 0px;
-	  padding: 0px
-   }
-	ul{
-		list-style-type: none;
-	}
-		ul li{
-			float: left;
-			width: 200px
-			height: 50px
-			background-color: aqua;
-			font-size: 40px
-			text-align: center;
-			line-height: 50px
-		}
-		ul li a{
-			text-decoration: none;
-			color: black;
-			display: block
-		}
-		ul li a:hover{
-			background-color: green;
-			color: white;
-		}
-		ul li ul li{
-			display: none;
-		}
-		ul li:hover ul li{
-			display: block;
-		}
- </style>
- </head>
- <body>
-  <ul>
-   <li> <a href="#">home</a> </li>
-   <li> <a href="#">TS Model Schools</a>
-		<ul >
-			<li><a href="#">TSMS Admissions</a> </li>
-			<li><a href="#">TSMS HRMS</a> </li>
-			<li><a href="#">TSMS Gallery</a> </li>
-		</ul>
-		<li><a href="#">Education sites</a></li>
-		<li><a href="#">Softwares</a></li>
-   
-  </ul>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <script async='async' crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5617722137377548'/>
+    <script async='async' data-ad-client='ca-pub-5617722137377548' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>
+   <script async='async' src='https://cdn.onesignal.com/sdks/OneSignalSDK.js'/>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: &quot;73ee2799-7afd-423c-92a3-f5259778d9b8&quot;,
+    });
+  });
+</script>
+    <meta expr:content='data:blog.isMobile         ? &quot;width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0&quot;         : &quot;width=1100&quot;' name='viewport'/>
+    <b:include data='blog' name='all-head-content'/>
+    <title><data:blog.pageTitle/></title>
 
- </body>
-</html>
+    <b:skin><![CDATA[/*-----------------------------------------------
 
-<meta content='width=1100' name='viewport'/>
-<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
-<meta content='blogger' name='generator'/>
-<link href='https://tsmsignites.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
-<link href='https://tsmsignites.blogspot.com/' rel='canonical'/>
-<link rel="alternate" type="application/atom+xml" title="tsmsignites.blogspot.com - Atom" href="https://tsmsignites.blogspot.com/feeds/posts/default" />
-<link rel="alternate" type="application/rss+xml" title="tsmsignites.blogspot.com - RSS" href="https://tsmsignites.blogspot.com/feeds/posts/default?alt=rss" />
-<link rel="service.post" type="application/atom+xml" title="tsmsignites.blogspot.com - Atom" href="https://www.blogger.com/feeds/9049082725044707162/posts/default" />
-<!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/4126505014-ieretrofit.js"></script>
-<![endif]-->
-<meta content='Move ahead with technoogy updates' name='description'/>
-<meta content='https://tsmsignites.blogspot.com/' property='og:url'/>
-<meta content='tsmsignites.blogspot.com' property='og:title'/>
-<meta content='Move ahead with technoogy updates' property='og:description'/>
-<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
-<title>tsmsignites.blogspot.com</title>
-<style id='page-skin-1' type='text/css'><!--
-/*-----------------------------------------------
 Blogger Template Style
 Name:     Picture Window
 Designer: Blogger
 URL:      www.blogger.com
 ----------------------------------------------- */
+
 /* Variable definitions
-====================
-<Variable name="keycolor" description="Main Color" type="color" default="#1a222a"/>
-<Variable name="body.background" description="Body Background" type="background"
-color="#D52C1F" default="#111111 url(//themes.googleusercontent.com/image?id=1OACCYOE0-eoTRTfsBuX1NMN9nz599ufI1Jh0CggPFA_sK80AGkIr8pLtYRpNUKPmwtEa) repeat-x fixed top center"/>
-<Group description="Page Text" selector="body">
-<Variable name="body.font" description="Font" type="font"
-default="normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
-<Variable name="body.text.color" description="Text Color" type="color" default="#333333"/>
-</Group>
-<Group description="Backgrounds" selector=".body-fauxcolumns-outer">
-<Variable name="body.background.color" description="Outer Background" type="color" default="#296695"/>
-<Variable name="header.background.color" description="Header Background" type="color" default="transparent"/>
-<Variable name="post.background.color" description="Post Background" type="color" default="#ffffff"/>
-</Group>
-<Group description="Links" selector=".main-outer">
-<Variable name="link.color" description="Link Color" type="color" default="#336699"/>
-<Variable name="link.visited.color" description="Visited Color" type="color" default="#6699cc"/>
-<Variable name="link.hover.color" description="Hover Color" type="color" default="#33aaff"/>
-</Group>
-<Group description="Blog Title" selector=".header h1">
-<Variable name="header.font" description="Title Font" type="font"
-default="normal normal 36px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
-<Variable name="header.text.color" description="Text Color" type="color" default="#060100" />
-</Group>
-<Group description="Tabs Text" selector=".tabs-inner .widget li a">
-<Variable name="tabs.font" description="Font" type="font"
-default="normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
-<Variable name="tabs.text.color" description="Text Color" type="color" default="#ffffff"/>
-<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#830008"/>
-</Group>
-<Group description="Tabs Background" selector=".tabs-outer .PageList">
-<Variable name="tabs.background.color" description="Background Color" type="color" default="transparent"/>
-<Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="transparent"/>
-<Variable name="tabs.separator.color" description="Separator Color" type="color" default="transparent"/>
-</Group>
-<Group description="Post Title" selector="h3.post-title, .comments h4">
-<Variable name="post.title.font" description="Title Font" type="font"
-default="normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
-</Group>
-<Group description="Date Header" selector=".date-header">
-<Variable name="date.header.color" description="Text Color" type="color" default="#D52C1F"/>
-</Group>
-<Group description="Post" selector=".post">
-<Variable name="post.footer.text.color" description="Footer Text Color" type="color" default="#999999"/>
-<Variable name="post.border.color" description="Border Color" type="color" default="#dddddd"/>
-</Group>
-<Group description="Gadgets" selector="h2">
-<Variable name="widget.title.font" description="Title Font" type="font"
-default="bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
-<Variable name="widget.title.text.color" description="Title Color" type="color" default="#888888"/>
-</Group>
-<Group description="Footer" selector=".footer-outer">
-<Variable name="footer.text.color" description="Text Color" type="color" default="#cccccc"/>
-<Variable name="footer.widget.title.text.color" description="Gadget Title Color" type="color" default="#aaaaaa"/>
-</Group>
-<Group description="Footer Links" selector=".footer-outer">
-<Variable name="footer.link.color" description="Link Color" type="color" default="#99ccee"/>
-<Variable name="footer.link.visited.color" description="Visited Color" type="color" default="#77aaee"/>
-<Variable name="footer.link.hover.color" description="Hover Color" type="color" default="#33aaff"/>
-</Group>
-<Variable name="content.margin" description="Content Margin Top" type="length" default="20px" min="0" max="100px"/>
-<Variable name="content.padding" description="Content Padding" type="length" default="0" min="0" max="100px"/>
-<Variable name="content.background" description="Content Background" type="background"
-default="transparent none repeat scroll top left"/>
-<Variable name="content.border.radius" description="Content Border Radius" type="length" default="0" min="0" max="100px"/>
-<Variable name="content.shadow.spread" description="Content Shadow Spread" type="length" default="0" min="0" max="100px"/>
-<Variable name="header.padding" description="Header Padding" type="length" default="0" min="0" max="100px"/>
-<Variable name="header.background.gradient" description="Header Gradient" type="url"
-default="none"/>
-<Variable name="header.border.radius" description="Header Border Radius" type="length" default="0" min="0" max="100px"/>
-<Variable name="main.border.radius.top" description="Main Border Radius" type="length" default="20px" min="0" max="100px"/>
-<Variable name="footer.border.radius.top" description="Footer Border Radius Top" type="length" default="0" min="0" max="100px"/>
-<Variable name="footer.border.radius.bottom" description="Footer Border Radius Bottom" type="length" default="20px" min="0" max="100px"/>
-<Variable name="region.shadow.spread" description="Main and Footer Shadow Spread" type="length" default="3px" min="0" max="100px"/>
-<Variable name="region.shadow.offset" description="Main and Footer Shadow Offset" type="length" default="1px" min="-50px" max="50px"/>
-<Variable name="tabs.background.gradient" description="Tab Background Gradient" type="url" default="none"/>
-<Variable name="tab.selected.background.gradient" description="Selected Tab Background" type="url"
-default="url(https://resources.blogblog.com/blogblog/data/1kt/transparent/white80.png)"/>
-<Variable name="tab.background" description="Tab Background" type="background"
-default="transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/black50.png) repeat scroll top left"/>
-<Variable name="tab.border.radius" description="Tab Border Radius" type="length" default="10px" min="0" max="100px"/>
-<Variable name="tab.first.border.radius" description="First Tab Border Radius" type="length" default="10px" min="0" max="100px"/>
-<Variable name="tabs.border.radius" description="Tabs Border Radius" type="length" default="0" min="0" max="100px"/>
-<Variable name="tabs.spacing" description="Tab Spacing" type="length" default=".25em" min="0" max="10em"/>
-<Variable name="tabs.margin.bottom" description="Tab Margin Bottom" type="length" default="0" min="0" max="100px"/>
-<Variable name="tabs.margin.sides" description="Tab Margin Sides" type="length" default="20px" min="0" max="100px"/>
-<Variable name="main.background" description="Main Background" type="background"
-default="transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/white80.png) repeat scroll top left"/>
-<Variable name="main.padding.sides" description="Main Padding Sides" type="length" default="20px" min="0" max="100px"/>
-<Variable name="footer.background" description="Footer Background" type="background"
-default="transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/black50.png) repeat scroll top left"/>
-<Variable name="post.margin.sides" description="Post Margin Sides" type="length" default="-20px" min="-50px" max="50px"/>
-<Variable name="post.border.radius" description="Post Border Radius" type="length" default="20px" min="0" max="100px"/>
-<Variable name="widget.title.text.transform" description="Widget Title Text Transform" type="string" default="uppercase"/>
-<Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
-default="transparent none repeat scroll top left"/>
-<Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
-<Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
+   ====================
+   <Variable name="keycolor" description="Main Color" type="color" default="#1a222a" value="#000000"/>
+   <Variable name="body.background" description="Body Background" type="background"
+       color="$(body.background.color)" default="#111111 url(//themes.googleusercontent.com/image?id=1OACCYOE0-eoTRTfsBuX1NMN9nz599ufI1Jh0CggPFA_sK80AGkIr8pLtYRpNUKPmwtEa) repeat-x fixed top center" value="#256529 url(https://themes.googleusercontent.com/image?id=0BwVBOzw_-hbMMGEyNWZlMTgtZjE2OC00OTA1LWI0ZGEtMTg1NGEyZTI0ODY3) repeat fixed top center /* Credit: mammuth (http://www.istockphoto.com/portfolio/mammuth?platform=blogger) */"/>
+
+   <Group description="Page Text" selector="body">
+     <Variable name="body.font" description="Font" type="font"
+         default="normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="italic bold 20px &#39;Times New Roman&#39;, Times, FreeSerif, serif"/>
+     <Variable name="body.text.color" description="Text Color" type="color" default="#333333" value="#D52C1F"/>
+   </Group>
+
+   <Group description="Backgrounds" selector=".body-fauxcolumns-outer">
+     <Variable name="body.background.color" description="Outer Background" type="color" default="#296695" value="#D52C1F"/>
+     <Variable name="header.background.color" description="Header Background" type="color" default="transparent" value="#D52C1F"/>
+     <Variable name="post.background.color" description="Post Background" type="color" default="#ffffff" value="#EEEEEE"/>
+   </Group>
+
+   <Group description="Links" selector=".main-outer">
+     <Variable name="link.color" description="Link Color" type="color" default="#336699" value="#830008"/>
+     <Variable name="link.visited.color" description="Visited Color" type="color" default="#6699cc" value="#D52C1F"/>
+     <Variable name="link.hover.color" description="Hover Color" type="color" default="#33aaff" value="#B51200"/>
+   </Group>
+
+   <Group description="Blog Title" selector=".header h1">
+     <Variable name="header.font" description="Title Font" type="font"
+         default="normal normal 36px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="italic bold 75px &#39;Times New Roman&#39;, Times, FreeSerif, serif"/>
+     <Variable name="header.text.color" description="Text Color" type="color" default="#060100"  value="#FFFFFF"/>
+   </Group>
+
+   <Group description="Tabs Text" selector=".tabs-inner .widget li a">
+     <Variable name="tabs.font" description="Font" type="font"
+         default="normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+     <Variable name="tabs.text.color" description="Text Color" type="color" default="#ffffff" value="#ffffff"/>
+     <Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="$(link.color)" value="#830008"/>
+   </Group>
+
+   <Group description="Tabs Background" selector=".tabs-outer .PageList">
+     <Variable name="tabs.background.color" description="Background Color" type="color" default="transparent" value="rgba(0,0,0,0)"/>
+     <Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="transparent" value="rgba(0,0,0,0)"/>
+     <Variable name="tabs.separator.color" description="Separator Color" type="color" default="transparent" value="rgba(0,0,0,0)"/>
+   </Group>
+
+   <Group description="Post Title" selector="h3.post-title, .comments h4">
+     <Variable name="post.title.font" description="Title Font" type="font"
+         default="normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+   </Group>
+
+   <Group description="Date Header" selector=".date-header">
+     <Variable name="date.header.color" description="Text Color" type="color" default="$(body.text.color)" value="#D52C1F"/>
+   </Group>
+
+   <Group description="Post" selector=".post">
+     <Variable name="post.footer.text.color" description="Footer Text Color" type="color" default="#999999" value="#959595"/>
+     <Variable name="post.border.color" description="Border Color" type="color" default="#dddddd" value="#dbdbdb"/>
+   </Group>
+
+   <Group description="Gadgets" selector="h2">
+     <Variable name="widget.title.font" description="Title Font" type="font"
+        default="bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+     <Variable name="widget.title.text.color" description="Title Color" type="color" default="#888888" value="#838383"/>
+   </Group>
+
+   <Group description="Footer" selector=".footer-outer">
+     <Variable name="footer.text.color" description="Text Color" type="color" default="#cccccc" value="#cacaca"/>
+     <Variable name="footer.widget.title.text.color" description="Gadget Title Color" type="color" default="#aaaaaa" value="#a7a7a7"/>
+   </Group>
+
+   <Group description="Footer Links" selector=".footer-outer">
+     <Variable name="footer.link.color" description="Link Color" type="color" default="#99ccee" value="#ed959e"/>
+     <Variable name="footer.link.visited.color" description="Visited Color" type="color" default="#77aaee" value="#ed7b72"/>
+     <Variable name="footer.link.hover.color" description="Hover Color" type="color" default="#33aaff" value="#ff2b3d"/>
+   </Group>
+
+   <Variable name="content.margin" description="Content Margin Top" type="length" default="20px" min="0" max="100px" value="20px"/>
+   <Variable name="content.padding" description="Content Padding" type="length" default="0" min="0" max="100px" value="0"/>
+   <Variable name="content.background" description="Content Background" type="background"
+       default="transparent none repeat scroll top left" value="transparent none repeat scroll top left"/>
+   <Variable name="content.border.radius" description="Content Border Radius" type="length" default="0" min="0" max="100px" value="0"/>
+   <Variable name="content.shadow.spread" description="Content Shadow Spread" type="length" default="0" min="0" max="100px" value="0"/>
+
+   <Variable name="header.padding" description="Header Padding" type="length" default="0" min="0" max="100px" value="0"/>
+   <Variable name="header.background.gradient" description="Header Gradient" type="url"
+       default="none" value="none"/>
+   <Variable name="header.border.radius" description="Header Border Radius" type="length" default="0" min="0" max="100px" value="0"/>
+
+   <Variable name="main.border.radius.top" description="Main Border Radius" type="length" default="20px" min="0" max="100px" value="20px"/>
+   <Variable name="footer.border.radius.top" description="Footer Border Radius Top" type="length" default="0" min="0" max="100px" value="0"/>
+   <Variable name="footer.border.radius.bottom" description="Footer Border Radius Bottom" type="length" default="20px" min="0" max="100px" value="20px"/>
+   <Variable name="region.shadow.spread" description="Main and Footer Shadow Spread" type="length" default="3px" min="0" max="100px" value="3px"/>
+   <Variable name="region.shadow.offset" description="Main and Footer Shadow Offset" type="length" default="1px" min="-50px" max="50px" value="1px"/>
+
+   <Variable name="tabs.background.gradient" description="Tab Background Gradient" type="url" default="none" value="none"/>
+   <Variable name="tab.selected.background.gradient" description="Selected Tab Background" type="url"
+       default="url(https://resources.blogblog.com/blogblog/data/1kt/transparent/white80.png)" value="url(https://resources.blogblog.com/blogblog/data/1kt/transparent/white80.png)"/>
+   <Variable name="tab.background" description="Tab Background" type="background"
+       default="transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/black50.png) repeat scroll top left" value="transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/black50.png) repeat scroll top left"/>
+
+   <Variable name="tab.border.radius" description="Tab Border Radius" type="length" default="10px" min="0" max="100px" value="10px"/>
+   <Variable name="tab.first.border.radius" description="First Tab Border Radius" type="length" default="10px" min="0" max="100px" value="10px"/>
+   <Variable name="tabs.border.radius" description="Tabs Border Radius" type="length" default="0" min="0" max="100px" value="0"/>
+
+   <Variable name="tabs.spacing" description="Tab Spacing" type="length" default=".25em" min="0" max="10em" value=".25em"/>
+   <Variable name="tabs.margin.bottom" description="Tab Margin Bottom" type="length" default="0" min="0" max="100px" value="0"/>
+   <Variable name="tabs.margin.sides" description="Tab Margin Sides" type="length" default="20px" min="0" max="100px" value="20px"/>
+
+   <Variable name="main.background" description="Main Background" type="background"
+       default="transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/white80.png) repeat scroll top left" value="transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/white80.png) repeat scroll top left"/>
+   <Variable name="main.padding.sides" description="Main Padding Sides" type="length" default="20px" min="0" max="100px" value="20px"/>
+
+   <Variable name="footer.background" description="Footer Background" type="background"
+       default="transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/black50.png) repeat scroll top left" value="transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/black50.png) repeat scroll top left"/>
+
+   <Variable name="post.margin.sides" description="Post Margin Sides" type="length" default="-20px" min="-50px" max="50px" value="-20px"/>
+   <Variable name="post.border.radius" description="Post Border Radius" type="length" default="20px" min="0" max="100px" value="5px"/>
+   <Variable name="widget.title.text.transform" description="Widget Title Text Transform" type="string" default="uppercase" value="uppercase"/>
+
+   <Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
+       default="transparent none repeat scroll top left" value="transparent none repeat scroll top left"/>
+
+   <Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
+   <Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
 */
+
 /* Content
 ----------------------------------------------- */
 <meta name="google-site-verification" content="f9jZZvhp51PVP9ooVsRnMcahH1QbpULzFimCC3w9oO8" />
 body {How To Reduce Space Between Blogger Top Menu Bar And Post Title
-font: italic bold 20px 'Times New Roman', Times, FreeSerif, serif;
-color: #D52C1F;
-background: #256529 url(https://themes.googleusercontent.com/image?id=0BwVBOzw_-hbMMGEyNWZlMTgtZjE2OC00OTA1LWI0ZGEtMTg1NGEyZTI0ODY3) repeat fixed top center /* Credit: mammuth (http://www.istockphoto.com/portfolio/mammuth?platform=blogger) */;
+  font: $(body.font);
+  color: $(body.text.color);
+  background: $(body.background);
 }
+
 html body .region-inner {
-min-width: 0;
-max-width: 100%;
-width: auto;
+  min-width: 0;
+  max-width: 100%;
+  width: auto;
 }
+
 .content-outer {
-font-size: 90%;
+  font-size: 90%;
 }
+
 a:link {
-text-decoration:none;
-color: #830008;
+  text-decoration:none;
+  color: $(link.color);
 }
+
 a:visited {
-text-decoration:none;
-color: #D52C1F;
+  text-decoration:none;
+  color: $(link.visited.color);
 }
+
 a:hover {
-text-decoration:underline;
-color: #B51200;
+  text-decoration:underline;
+  color: $(link.hover.color);
 }
+
 .content-outer {
-background: transparent none repeat scroll top left;
--moz-border-radius: 0;
--webkit-border-radius: 0;
--goog-ms-border-radius: 0;
-border-radius: 0;
--moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
--webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
--goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
-margin: 20px auto;
+  background: $(content.background);
+
+  -moz-border-radius: $(content.border.radius);
+  -webkit-border-radius: $(content.border.radius);
+  -goog-ms-border-radius: $(content.border.radius);
+  border-radius: $(content.border.radius);
+
+  -moz-box-shadow: 0 0 $(content.shadow.spread) rgba(0, 0, 0, .15);
+  -webkit-box-shadow: 0 0 $(content.shadow.spread) rgba(0, 0, 0, .15);
+  -goog-ms-box-shadow: 0 0 $(content.shadow.spread) rgba(0, 0, 0, .15);
+  box-shadow: 0 0 $(content.shadow.spread) rgba(0, 0, 0, .15);
+
+  margin: $(content.margin) auto;
 }
+
 .content-inner {
-padding: 0;
+  padding: $(content.padding);
 }
+
 /* Header
 ----------------------------------------------- */
 .header-outer {
-background: #D52C1F none repeat-x scroll top left;
-_background-image: none;
-color: #FFFFFF;
--moz-border-radius: 0;
--webkit-border-radius: 0;
--goog-ms-border-radius: 0;
-border-radius: 0;
+  background: $(header.background.color) $(header.background.gradient) repeat-x scroll top left;
+  _background-image: none;
+
+  color: $(header.text.color);
+
+  -moz-border-radius: $(header.border.radius);
+  -webkit-border-radius: $(header.border.radius);
+  -goog-ms-border-radius: $(header.border.radius);
+  border-radius: $(header.border.radius);
 }
+
 .Header img, .Header #header-inner {
--moz-border-radius: 0;
--webkit-border-radius: 0;
--goog-ms-border-radius: 0;
-border-radius: 0;
+  -moz-border-radius: $(header.border.radius);
+  -webkit-border-radius: $(header.border.radius);
+  -goog-ms-border-radius: $(header.border.radius);
+  border-radius: $(header.border.radius);
 }
+
 .header-inner .Header .titlewrapper,
 .header-inner .Header .descriptionwrapper {
-padding-left: 0;
-padding-right: 0;
+  padding-left: $(header.padding);
+  padding-right: $(header.padding);
 }
+
 .Header h1 {
-font: italic bold 75px 'Times New Roman', Times, FreeSerif, serif;
-text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  font: $(header.font);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
+
 .Header h1 a {
-color: #FFFFFF;
+  color: $(header.text.color);
 }
+
 .Header .description {
-font-size: 150%;
+  font-size: 150%;
 }
+
 /* Tabs
 ----------------------------------------------- */
 .tabs-inner {
-margin: .5em 20px 0;
-padding: 0;
+  margin: .5em $(tabs.margin.sides) $(tabs.margin.bottom);
+  padding: 0;
 }
+
 .tabs-inner .section {
-margin: 0;
+  margin: 0;
 }
+
 .tabs-inner .widget ul {
-padding: 0;
-background: orange none repeat scroll bottom;
--moz-border-radius: 0;
--webkit-border-radius: 0;
--goog-ms-border-radius: 0;
-border-radius: 0;
+  padding: 0;
+
+  background: orange $(tabs.background.gradient) repeat scroll bottom;
+
+  -moz-border-radius: $(tabs.border.radius);
+  -webkit-border-radius: $(tabs.border.radius);
+  -goog-ms-border-radius: $(tabs.border.radius);
+  border-radius: $(tabs.border.radius);
 }
+
 .tabs-inner .widget li {
-border: none;
+  border: none;
 }
+
 .tabs-inner .widget li a {
-display: inline-block;
-padding: .5em 1em;
-margin-right: .1em;
-color: white;
-font: normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
--moz-border-radius: 10px 10px 0 0;
--webkit-border-top-left-radius: 10px;
--webkit-border-top-right-radius: 10px;
--goog-ms-border-radius: 10px 10px 0 0;
-border-radius: 10px 10px 0 0;
-background: brown;
-border-right: .5px solid rgba(0,0,0,0);
+  display: inline-block;
+
+  padding: .5em 1em;
+  margin-$endSide: .1em;
+
+  color: white;
+  font: $(tabs.font);
+
+  -moz-border-radius: $(tab.border.radius) $(tab.border.radius) 0 0;
+  -webkit-border-top-left-radius: $(tab.border.radius);
+  -webkit-border-top-right-radius: $(tab.border.radius);
+  -goog-ms-border-radius: $(tab.border.radius) $(tab.border.radius) 0 0;
+  border-radius: $(tab.border.radius) $(tab.border.radius) 0 0;
+
+  background: brown;
+
+  border-$endSide: .5px solid $(tabs.separator.color);
 }
+
 .tabs-inner .widget li:first-child a {
-padding-left: .2em;
--moz-border-radius-topleft: 10px;
--moz-border-radius-bottomleft: 0;
--webkit-border-top-left-radius: 10px;
--webkit-border-bottom-left-radius: 0;
--goog-ms-border-top-left-radius: 10px;
--goog-ms-border-bottom-left-radius: 0;
-border-top-left-radius: 10px;
-border-bottom-left-radius: 0;
+  padding-$startSide: .2em;
+
+  -moz-border-radius-top$startSide: $(tab.first.border.radius);
+  -moz-border-radius-bottom$startSide: $(tabs.border.radius);
+  -webkit-border-top-$startSide-radius: $(tab.first.border.radius);
+  -webkit-border-bottom-$startSide-radius: $(tabs.border.radius);
+  -goog-ms-border-top-$startSide-radius: $(tab.first.border.radius);
+  -goog-ms-border-bottom-$startSide-radius: $(tabs.border.radius);
+  border-top-$startSide-radius: $(tab.first.border.radius);
+  border-bottom-$startSide-radius: $(tabs.border.radius);
 }
+
 .tabs-inner .widget li.selected a,
 .tabs-inner .widget li a:hover {
-position: relative;
-z-index: 1;
-background: green url(https://resources.blogblog.com/blogblog/data/1kt/transparent/white80.png) repeat scroll bottom;
-color: green
--moz-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
--webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
--goog-ms-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+  position: relative;
+  z-index: 1;
+
+  background: green $(tab.selected.background.gradient) repeat scroll bottom;
+  color: green
+
+   -moz-box-shadow: 0 0 $(region.shadow.spread) rgba(0, 0, 0, .15);
+  -webkit-box-shadow: 0 0 $(region.shadow.spread) rgba(0, 0, 0, .15);
+  -goog-ms-box-shadow: 0 0 $(region.shadow.spread) rgba(0, 0, 0, .15);
+  box-shadow: 0 0 $(region.shadow.spread) rgba(0, 0, 0, .15);
+
 }
+
 /* Headings
 ----------------------------------------------- */
 h2 {
-font: bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
-text-transform: uppercase;
-color: blue ;
-margin: .5em 0;
+  font: $(widget.title.font);
+  text-transform: $(widget.title.text.transform);
+  color: blue ;
+  margin: .5em 0;
 }
+
 /* Main
 ----------------------------------------------- */
 .main-outer {
-background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/white80.png) repeat scroll top left;
--moz-border-radius: 20px 20px 0 0;
--webkit-border-top-left-radius: 20px;
--webkit-border-top-right-radius: 20px;
--webkit-border-bottom-left-radius: 0;
--webkit-border-bottom-right-radius: 0;
--goog-ms-border-radius: 20px 20px 0 0;
-border-radius: 20px 20px 0 0;
--moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
--webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
--goog-ms-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+  background: $(main.background);
+
+  -moz-border-radius: $(main.border.radius.top) $(main.border.radius.top) 0 0;
+  -webkit-border-top-left-radius: $(main.border.radius.top);
+  -webkit-border-top-right-radius: $(main.border.radius.top);
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -goog-ms-border-radius: $(main.border.radius.top) $(main.border.radius.top) 0 0;
+  border-radius: $(main.border.radius.top) $(main.border.radius.top) 0 0;
+
+  -moz-box-shadow: 0 $(region.shadow.offset) $(region.shadow.spread) rgba(0, 0, 0, .15);
+  -webkit-box-shadow: 0 $(region.shadow.offset) $(region.shadow.spread) rgba(0, 0, 0, .15);
+  -goog-ms-box-shadow: 0 $(region.shadow.offset) $(region.shadow.spread) rgba(0, 0, 0, .15);
+  box-shadow: 0 $(region.shadow.offset) $(region.shadow.spread) rgba(0, 0, 0, .15);
 }
+
 .main-inner {
-padding: 3px 20px 5px;
+  padding: 3px $(main.padding.sides) 5px;
 }
+
 .main-inner .column-center-inner {
-padding: 0 0;
+  padding: 0 0;
 }
+
 .main-inner .column-left-inner {
-padding-left: 0;
+  padding-left: 0;
 }
+
 .main-inner .column-right-inner {
-padding-right: 0;
+  padding-right: 0;
 }
+
 /* Posts
 ----------------------------------------------- */
 h3.post-title {
-margin: 0;
-font: normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+  margin: 0;
+  font: $(post.title.font);
 }
+
 .comments h4 {
-margin: 1em 0 0;
-font: normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+  margin: 1em 0 0;
+  font: $(post.title.font);
 }
+
 .date-header span {
-color: #D52C1F;
+  color: $(date.header.color);
 }
+
 .post-outer {
-background-color: #EEEEEE;
-border: solid 1px #dbdbdb;
--moz-border-radius: 5px;
--webkit-border-radius: 5px;
-border-radius: 5px;
--goog-ms-border-radius: 5px;
-padding: 5px 10px;
-margin: 0 -20px 5px;
+  background-color: $(post.background.color);
+  border: solid 1px $(post.border.color);
+
+  -moz-border-radius: $(post.border.radius);
+  -webkit-border-radius: $(post.border.radius);
+  border-radius: $(post.border.radius);
+  -goog-ms-border-radius: $(post.border.radius);
+
+  padding: 5px 10px;
+  margin: 0 $(post.margin.sides) 5px;
 }
+
 .post-body {
-line-height: 1.0;
-font-size: 110%;
-position: relative;
+  line-height: 1.0;
+  font-size: 110%;
+  position: relative;
 }
+
 .post-header {
-margin: 0 0 1.0em;
-color: #959595;
-line-height: 1.0;
+  margin: 0 0 1.0em;
+
+  color: $(post.footer.text.color);
+  line-height: 1.0;
 }
+
 .post-footer {
-margin: .5em 0 0;
-color: #959595;
-line-height: 1.0;
+  margin: .5em 0 0;
+
+  color: $(post.footer.text.color);
+  line-height: 1.0;
 }
+
 #blog-pager {
-font-size: 140%
+  font-size: 140%
 }
+
 #comments .comment-author {
-padding-top: 1.5em;
-border-top: dashed 1px #ccc;
-border-top: dashed 1px rgba(128, 128, 128, .5);
-background-position: 0 1.5em;
+  padding-top: 1.5em;
+
+  border-top: dashed 1px #ccc;
+  border-top: dashed 1px rgba(128, 128, 128, .5);
+
+  background-position: 0 1.5em;
 }
+
 #comments .comment-author:first-child {
-padding-top: 0;
-border-top: none;
+  padding-top: 0;
+
+  border-top: none;
 }
+
 .avatar-image-container {
-margin: .2em 0 0;
+  margin: .2em 0 0;
 }
+
 /* Comments
 ----------------------------------------------- */
 .comments .comments-content .icon.blog-author {
-background-repeat: no-repeat;
-background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+  background-repeat: no-repeat;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
 }
+
 .comments .comments-content .loadmore a {
-border-top: 1px solid #B51200;
-border-bottom: 1px solid #B51200;
+  border-top: 1px solid $(link.hover.color);
+  border-bottom: 1px solid $(link.hover.color);
 }
+
 .comments .continue {
-border-top: 2px solid #B51200;
+  border-top: 2px solid $(link.hover.color);
 }
+
 /* Widgets
 ----------------------------------------------- */
 .widget ul, .widget #ArchiveList ul.flat {
-padding: 0;
-list-style: none;
+  padding: 0;
+  list-style: none;
 }
+
 .widget ul li, .widget #ArchiveList ul.flat li {
-border-top: dashed 1px #ccc;
-border-top: dashed 1px rgba(128, 128, 128, .5);
+  border-top: dashed 1px #ccc;
+  border-top: dashed 1px rgba(128, 128, 128, .5);
 }
+
 .widget ul li:first-child, .widget #ArchiveList ul.flat li:first-child {
-border-top: none;
+  border-top: none;
 }
+
 .widget .post-body ul {
-list-style: disc;
+  list-style: disc;
 }
+
 .widget .post-body ul li {
-border: none;
+  border: none;
 }
+
 /* Footer
 ----------------------------------------------- */
 .footer-outer {
-color:#cacaca;
-background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/black50.png) repeat scroll top left;
--moz-border-radius: 0 0 20px 20px;
--webkit-border-top-left-radius: 0;
--webkit-border-top-right-radius: 0;
--webkit-border-bottom-left-radius: 20px;
--webkit-border-bottom-right-radius: 20px;
--goog-ms-border-radius: 0 0 20px 20px;
-border-radius: 0 0 20px 20px;
--moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
--webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
--goog-ms-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+  color:$(footer.text.color);
+  background: $(footer.background);
+
+  -moz-border-radius: $(footer.border.radius.top) $(footer.border.radius.top) $(footer.border.radius.bottom) $(footer.border.radius.bottom);
+  -webkit-border-top-left-radius: $(footer.border.radius.top);
+  -webkit-border-top-right-radius: $(footer.border.radius.top);
+  -webkit-border-bottom-left-radius: $(footer.border.radius.bottom);
+  -webkit-border-bottom-right-radius: $(footer.border.radius.bottom);
+  -goog-ms-border-radius: $(footer.border.radius.top) $(footer.border.radius.top) $(footer.border.radius.bottom) $(footer.border.radius.bottom);
+  border-radius: $(footer.border.radius.top) $(footer.border.radius.top) $(footer.border.radius.bottom) $(footer.border.radius.bottom);
+
+  -moz-box-shadow: 0 $(region.shadow.offset) $(region.shadow.spread) rgba(0, 0, 0, .15);
+  -webkit-box-shadow: 0 $(region.shadow.offset) $(region.shadow.spread) rgba(0, 0, 0, .15);
+  -goog-ms-box-shadow: 0 $(region.shadow.offset) $(region.shadow.spread) rgba(0, 0, 0, .15);
+  box-shadow: 0 $(region.shadow.offset) $(region.shadow.spread) rgba(0, 0, 0, .15);
 }
+
 .footer-inner {
-padding: 20px 20px 20px;
+  padding: 20px $(main.padding.sides) 20px;
 }
+
 .footer-outer a {
-color: #ed959e;
+  color: $(footer.link.color);
 }
+
 .footer-outer a:visited {
-color: #ed7b72;
+  color: $(footer.link.visited.color);
 }
+
 .footer-outer a:hover {
-color: #ff2b3d;
+  color: $(footer.link.hover.color);
 }
+
 .footer-outer .widget h2 {
-color: #a7a7a7;
+  color: $(footer.widget.title.text.color);
 }
+
 /* Mobile
 ----------------------------------------------- */
 html body.mobile {
-height: auto;
+  height: auto;
 }
+
 html body.mobile {
-min-height: 480px;
-background-size: 100% auto;
+  min-height: 480px;
+  background-size: 100% auto;
 }
+
 .mobile .body-fauxcolumn-outer {
-background: transparent none repeat scroll top left;
+  background: $(mobile.background.overlay);
 }
+
 html .mobile .mobile-date-outer, html .mobile .blog-pager {
-border-bottom: none;
-background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/white80.png) repeat scroll top left;
-margin-bottom: 15px;
+  border-bottom: none;
+  background: $(main.background);
+  margin-bottom: 15px;
 }
+
 .mobile .date-outer {
-background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/white80.png) repeat scroll top left;
+  background: $(main.background);
 }
+
 .mobile .header-outer, .mobile .main-outer,
 .mobile .post-outer, .mobile .footer-outer {
--moz-border-radius: 0;
--webkit-border-radius: 0;
--goog-ms-border-radius: 0;
-border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -goog-ms-border-radius: 0;
+  border-radius: 0;
 }
+
 .mobile .content-outer,
 .mobile .main-outer,
 .mobile .post-outer {
-background: inherit;
-border: none;
-}
-.mobile .content-outer {
-font-size: 100%;
-}
-.mobile-link-button {
-background-color: #830008;
-}
-.mobile-link-button a:link, .mobile-link-button a:visited {
-color: #EEEEEE;
-}
-.mobile-index-contents {
-color: #D52C1F;
-}
-.mobile .tabs-inner .PageList .widget-content {
-background: rgba(0,0,0,0) url(https://resources.blogblog.com/blogblog/data/1kt/transparent/white80.png) repeat scroll bottom;
-color: #830008;
-}
-.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
-border-left: 1px solid rgba(0,0,0,0);
+  background: inherit;
+  border: none;
 }
 
---></style>
-<style type='text/css'>
+.mobile .content-outer {
+  font-size: 100%;
+}
+
+.mobile-link-button {
+  background-color: $(link.color);
+}
+
+.mobile-link-button a:link, .mobile-link-button a:visited {
+  color: $(post.background.color);
+}
+
+.mobile-index-contents {
+  color: $(body.text.color);
+}
+
+.mobile .tabs-inner .PageList .widget-content {
+  background: $(tabs.selected.background.color) $(tab.selected.background.gradient) repeat scroll bottom;
+  color: $(tabs.selected.text.color);
+}
+
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+  border-$startSide: 1px solid $(tabs.separator.color);
+}
+]]></b:skin>
+    <style type='text/css'>
 
 .content-inner {margin-top: -30px !important;}
 .content-outer {margin-bottom: -30px !important;}
 
-</style>
-<style id='template-skin-1' type='text/css'><!--
-body {
-min-width: 1301px;
-}
-.content-outer, .content-fauxcolumn-outer, .region-inner {
-min-width: 1301px;
-max-width: 1301px;
-_width: 1301px;
-}
-.main-inner .columns {
-padding-left: 321px;
-padding-right: 322px;
-}
-.main-inner .fauxcolumn-center-outer {
-left: 321px;
-right: 322px;
-/* IE6 does not respect left and right together */
-_width: expression(this.parentNode.offsetWidth -
-parseInt("321px") -
-parseInt("322px") + 'px');
-}
-.main-inner .fauxcolumn-left-outer {
-width: 321px;
-}
-.main-inner .fauxcolumn-right-outer {
-width: 322px;
-}
-.main-inner .column-left-outer {
-width: 321px;
-right: 100%;
-margin-left: -321px;
-}
-.main-inner .column-right-outer {
-width: 322px;
-margin-right: -322px;
-}
-#layout {
-min-width: 0;
-}
-#layout .content-outer {
-min-width: 0;
-width: 800px;
-}
-#layout .region-inner {
-min-width: 0;
-width: auto;
-}
-body#layout div.add_widget {
-padding: 8px;
-}
-body#layout div.add_widget a {
-margin-left: 30px;
-}
---></style>
-<style>
-    body {background-image:url(https\:\/\/themes.googleusercontent.com\/image?id=0BwVBOzw_-hbMMGEyNWZlMTgtZjE2OC00OTA1LWI0ZGEtMTg1NGEyZTI0ODY3);}
-    
-@media (max-width: 200px) { body {background-image:url(https\:\/\/themes.googleusercontent.com\/image?id=0BwVBOzw_-hbMMGEyNWZlMTgtZjE2OC00OTA1LWI0ZGEtMTg1NGEyZTI0ODY3&options=w200);}}
-@media (max-width: 400px) and (min-width: 201px) { body {background-image:url(https\:\/\/themes.googleusercontent.com\/image?id=0BwVBOzw_-hbMMGEyNWZlMTgtZjE2OC00OTA1LWI0ZGEtMTg1NGEyZTI0ODY3&options=w400);}}
-@media (max-width: 800px) and (min-width: 401px) { body {background-image:url(https\:\/\/themes.googleusercontent.com\/image?id=0BwVBOzw_-hbMMGEyNWZlMTgtZjE2OC00OTA1LWI0ZGEtMTg1NGEyZTI0ODY3&options=w800);}}
-@media (max-width: 1200px) and (min-width: 801px) { body {background-image:url(https\:\/\/themes.googleusercontent.com\/image?id=0BwVBOzw_-hbMMGEyNWZlMTgtZjE2OC00OTA1LWI0ZGEtMTg1NGEyZTI0ODY3&options=w1200);}}
-/* Last tag covers anything over one higher than the previous max-size cap. */
-@media (min-width: 1201px) { body {background-image:url(https\:\/\/themes.googleusercontent.com\/image?id=0BwVBOzw_-hbMMGEyNWZlMTgtZjE2OC00OTA1LWI0ZGEtMTg1NGEyZTI0ODY3&options=w1600);}}
-  </style>
-<link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=9049082725044707162&amp;zx=6d560159-66aa-4c89-b090-a354cd4c206b' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=9049082725044707162&amp;zx=6d560159-66aa-4c89-b090-a354cd4c206b' rel='stylesheet'/></noscript>
+</style> 
 
-<!-- data-ad-client=ca-pub-5617722137377548 -->
+    <b:template-skin>
+      <b:variable default='960px' name='content.width' type='length' value='1301px'/>
+      <b:variable default='0' name='main.column.left.width' type='length' value='321px'/>
+      <b:variable default='310px' name='main.column.right.width' type='length' value='322px'/>
 
-</head>
-<body class='loading'>
-<div class='navbar section' id='navbar' name='Navbar'><div class='widget Navbar' data-version='1' id='Navbar1'><script type="text/javascript">
+      <![CDATA[
+      body {
+        min-width: $(content.width);
+      }
+
+      .content-outer, .content-fauxcolumn-outer, .region-inner {
+        min-width: $(content.width);
+        max-width: $(content.width);
+        _width: $(content.width);
+      }
+
+      .main-inner .columns {
+        padding-left: $(main.column.left.width);
+        padding-right: $(main.column.right.width);
+      }
+
+      .main-inner .fauxcolumn-center-outer {
+        left: $(main.column.left.width);
+        right: $(main.column.right.width);
+        /* IE6 does not respect left and right together */
+        _width: expression(this.parentNode.offsetWidth -
+            parseInt("$(main.column.left.width)") -
+            parseInt("$(main.column.right.width)") + 'px');
+      }
+
+      .main-inner .fauxcolumn-left-outer {
+        width: $(main.column.left.width);
+      }
+
+      .main-inner .fauxcolumn-right-outer {
+        width: $(main.column.right.width);
+      }
+
+      .main-inner .column-left-outer {
+        width: $(main.column.left.width);
+        right: 100%;
+        margin-left: -$(main.column.left.width);
+      }
+
+      .main-inner .column-right-outer {
+        width: $(main.column.right.width);
+        margin-right: -$(main.column.right.width);
+      }
+
+      #layout {
+        min-width: 0;
+      }
+
+      #layout .content-outer {
+        min-width: 0;
+        width: 800px;
+      }
+
+      #layout .region-inner {
+        min-width: 0;
+        width: auto;
+      }
+
+      body#layout div.add_widget {
+        padding: 8px;
+      }
+
+      body#layout div.add_widget a {
+        margin-left: 30px;
+      }
+      ]]>
+    </b:template-skin>
+
+    <b:if cond='data:skin.vars.body_background.image.isResizable'>
+      <b:include cond='not data:view.isPreview' data='{                          image: data:skin.vars.body_background.image,                          selector: &quot;body&quot;                        }' name='responsiveImageStyle'/>
+    </b:if>
+
+    <b:include data='blog' name='google-analytics'/>
+      <style type='text/css'>@keyframes rotate{100%{-webkit-transform:rotate(1turn);transform:rotate(1turn)}} @keyframes change-background {0% {background: #2ecc71;}50% {background: #e74c3c;}75% {background: #3498db;}100% {background: #2ecc71;}} .rainbow{  position:relative;  z-index:0;  overflow:hidden;  padding:3px } .rainbow::before{  content:&#39;&#39;;  position:absolute;  z-index:-2;  left:-50%;  top:-50%;  width:200%;  height:200%;  background-color:#2ecc71;  background-repeat:no-repeat;  background-size:50% 50%,50% 50%;  background-position:0 0,100% 0,100% 100%,0 100%;  background-image:linear-gradient(#2ecc71,#2ecc71),linear-gradient(#fbb300,#fbb300),linear-gradient(#e74c3c,#e74c3c),linear-gradient(#3498db,#3498db);  animation:rotate 8s linear infinite } .rainbow::after{  content:&#39;&#39;;  position:absolute;  z-index:-1;  left:5px;  top:5px;  width:calc(100% - 10px);  height:calc(100% - 10px);  background:#fff } .tb-subscribe-wrapper{  color:#222;  line-height:20px;  margin:0;  padding:20px } .tb-subscribe-wrapper-head{  padding-bottom:15px;  margin-bottom:2px;  text-align:center;  font-size:25px;  color:#64707A!important;  border-bottom:1px dashed #64707A; } .tb-subscribe-form{  clear:both;  display:block;  margin:10px auto;  overflow:hidden } .tb-subscribe-wrapper p{  color:#64707A!important;  margin-top:10px;  font-size:14px } form.tb-subscribe-form{  clear:both;  display:block;  margin:10px 0 0;  width:auto;  overflow:hidden } .tb-subscribe-css-email-field{  background:#fff;  color:#222;  margin:0 0 18px;  padding:12px;  width:90%;  border:1px solid rgba(0,0,0,0.1);  outline:0;  font-size:14px;  text-indent:10px;  line-height:20px;  border-radius:3px;  transition:all .6s } .tb-subscribe-css-email-field:hover,.tb-subscribe-css-email-field:focus{  border-color:rgba(0,0,0,0.3) } .tb-subscribe-css-button{  animation: change-background 8s linear infinite;  color:#fff;  cursor:pointer;  font-weight:500;  padding:7px;  text-transform:none;  width:100%;  border:none;  font-size:16px;  border-radius:3px;  transition:all .3s }  #limit {         max-width: 500px; </style> 
+  </head>
+  <body expr:class='&quot;loading&quot; + data:blog.mobileClass'>
+  <b:section class='navbar' id='navbar' maxwidgets='1' name='Navbar' showaddelement='no'>
+    <b:widget id='Navbar1' locked='false' title='Navbar' type='Navbar'>
+      <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
     function setAttributeOnload(object, attribute, val) {
       if(window.addEventListener) {
-        window.addEventListener('load',
+        window.addEventListener(&#39;load&#39;,
           function(){ object[attribute] = val; }, false);
       } else {
-        window.attachEvent('onload', function(){ object[attribute] = val; });
+        window.attachEvent(&#39;onload&#39;, function(){ object[attribute] = val; });
       }
     }
-  </script>
-<div id="navbar-iframe-container"></div>
-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-<script type="text/javascript">
-      gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
-        if (gapi.iframes && gapi.iframes.getContext) {
+  &lt;/script&gt;
+&lt;div id=&quot;navbar-iframe-container&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://apis.google.com/js/platform.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+      gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
+        if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
           gapi.iframes.getContext().openChild({
-              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d9049082725044707162\x26blogName\x3dtsmsignites.blogspot.com\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dBLUE\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://tsmsignites.blogspot.com/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttps://tsmsignites.blogspot.com/\x26vt\x3d7283192507010912926',
-              where: document.getElementById("navbar-iframe-container"),
-              id: "navbar-iframe"
+              url: &#39;https://draft.blogger.com/navbar.g?targetBlogID\x3d9049082725044707162\x26blogName\x3dTS+MODEL+SCHOOLS+JR+COLLEGES\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dBLUE\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://tsmsignites.blogspot.com/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttps://tsmsignites.blogspot.com/\x26vt\x3d7283192507010912926&#39;,
+              where: document.getElementById(&quot;navbar-iframe-container&quot;),
+              id: &quot;navbar-iframe&quot;
           });
         }
       });
-    </script><script type="text/javascript">
+    &lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
 (function() {
-var script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
-var head = document.getElementsByTagName('head')[0];
+var script = document.createElement(&#39;script&#39;);
+script.type = &#39;text/javascript&#39;;
+script.src = &#39;//pagead2.googlesyndication.com/pagead/js/google_top_exp.js&#39;;
+var head = document.getElementsByTagName(&#39;head&#39;)[0];
 if (head) {
 head.appendChild(script);
 }})();
-</script>
-</div></div>
-<div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
-<meta content='tsmsignites.blogspot.com' itemprop='name'/>
-<meta content='Move ahead with technoogy updates' itemprop='description'/>
-</div>
-<div class='body-fauxcolumns'>
-<div class='fauxcolumn-outer body-fauxcolumn-outer'>
-<div class='cap-top'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-<div class='fauxborder-left'>
-<div class='fauxborder-right'></div>
-<div class='fauxcolumn-inner'>
-</div>
-</div>
-<div class='cap-bottom'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-</div>
-</div>
-<div class='content'>
-<div class='content-fauxcolumns'>
-<div class='fauxcolumn-outer content-fauxcolumn-outer'>
-<div class='cap-top'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-<div class='fauxborder-left'>
-<div class='fauxborder-right'></div>
-<div class='fauxcolumn-inner'>
-</div>
-</div>
-<div class='cap-bottom'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-</div>
-</div>
-<div class='content-outer'>
-<div class='content-cap-top cap-top'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-<div class='fauxborder-left content-fauxborder-left'>
-<div class='fauxborder-right content-fauxborder-right'></div>
-<div class='content-inner'>
-<header>
-<div class='header-outer'>
-<div class='header-cap-top cap-top'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-<div class='fauxborder-left header-fauxborder-left'>
-<div class='fauxborder-right header-fauxborder-right'></div>
-<div class='region-inner header-inner'>
-<div class='header section' id='header' name='Header'><div class='widget Header' data-version='1' id='Header1'>
-<div id='header-inner'>
-<a href='https://tsmsignites.blogspot.com/' style='display: block'>
-<img alt="tsmsignites.blogspot.com" height="259px; " id="Header1_headerimg" src="//1.bp.blogspot.com/-PBdTg_8fyw4/X8uWGOEzBeI/AAAAAAAAQcU/QVbC-8WVp1MQK67S97mqLToEJP_3FEiygCK4BGAYYCw/s1600/225.jpg" style="display: block" width="1277px; ">
-</a>
-<div class='descriptionwrapper'>
-<p class='description'><span> IGNITE STUDENTS MINDS</span></p>
-</div>
-</div>
-</div></div>
-</div>
-</div>
-<div class='header-cap-bottom cap-bottom'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-</div>
-</header>
-<div class='tabs-outer'>
-<div class='tabs-cap-top cap-top'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-<div class='fauxborder-left tabs-fauxborder-left'>
-<div class='fauxborder-right tabs-fauxborder-right'></div>
-<div class='region-inner tabs-inner'>
-<div class='tabs section' id='crosscol' name='Cross-Column'><div class='widget HTML' data-version='1' id='HTML2'>
-<h2 class='title'>TS MODEL SCHOOLS TELANGANA</h2>
-<div class='widget-content'>
-<marquee bgcolor="blue" style="color:white" scrollamount="6" direction="left"> TELANGANA STATE.... MODEL SCHOOLS.... & ....JUNIOR COLLEGES......... ENTER TO LEARN.............TRANSFORMING THE RURAL EDUCATION.......... BENCH MARK OF EXCELLENCE...........   LEAVE TO SERVE </marquee>
-</div>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' rel='nofollow' target='configHTML2' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div></div>
-<div class='tabs section' id='crosscol-overflow' name='Cross-Column 2'><div class='widget PageList' data-version='1' id='PageList2'>
-<div class='widget-content'>
-<ul>
-<li class='selected'>
-<a href='https://tsmsignites.blogspot.com/'>Home</a>
-</li>
+&lt;/script&gt;
+</b:includable>
+    </b:widget>
+  </b:section>
 
-<li>
-<a href='https://drive.google.com/drive/folders/1UcBKS5UGqcUvfxIqWHzrhJzzzRplurcn?usp=sharing'>Gallery</a>
-</li>
-</ul>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("PageList2"));' rel='nofollow' target='configPageList2' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div></div>
-</div>
-</div>
-<div class='tabs-cap-bottom cap-bottom'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-</div>
-<div class='main-outer'>
-<div class='main-cap-top cap-top'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-<div class='fauxborder-left main-fauxborder-left'>
-<div class='fauxborder-right main-fauxborder-right'></div>
-<div class='region-inner main-inner'>
-<div class='columns fauxcolumns'>
-<div class='fauxcolumn-outer fauxcolumn-center-outer'>
-<div class='cap-top'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-<div class='fauxborder-left'>
-<div class='fauxborder-right'></div>
-<div class='fauxcolumn-inner'>
-</div>
-</div>
-<div class='cap-bottom'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-</div>
-<div class='fauxcolumn-outer fauxcolumn-left-outer'>
-<div class='cap-top'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-<div class='fauxborder-left'>
-<div class='fauxborder-right'></div>
-<div class='fauxcolumn-inner'>
-</div>
-</div>
-<div class='cap-bottom'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-</div>
-<div class='fauxcolumn-outer fauxcolumn-right-outer'>
-<div class='cap-top'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-<div class='fauxborder-left'>
-<div class='fauxborder-right'></div>
-<div class='fauxcolumn-inner'>
-</div>
-</div>
-<div class='cap-bottom'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-</div>
-<!-- corrects IE6 width calculation -->
-<div class='columns-inner'>
-<div class='column-center-outer'>
-<div class='column-center-inner'>
-<div class='main section' id='main' name='Main'><div class='widget Blog' data-version='1' id='Blog1'>
-<div class='blog-posts hfeed'>
+  <b:if cond='data:blog.pageType == &quot;index&quot;'>
+    <div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
+      <meta expr:content='data:blog.title' itemprop='name'/>
+      <b:if cond='data:blog.metaDescription'>
+        <meta expr:content='data:blog.metaDescription' itemprop='description'/>
+      </b:if>
+    </div>
+  </b:if>
 
-          <div class="date-outer">
-        
+  <div class='body-fauxcolumns'>
+    <div class='fauxcolumn-outer body-fauxcolumn-outer'>
+    <div class='cap-top'>
+      <div class='cap-left'/>
+      <div class='cap-right'/>
+    </div>
+    <div class='fauxborder-left'>
+    <div class='fauxborder-right'/>
+    <div class='fauxcolumn-inner'>
+    </div>
+    </div>
+    <div class='cap-bottom'>
+      <div class='cap-left'/>
+      <div class='cap-right'/>
+    </div>
+    </div>
+  </div>
 
-          <div class="date-posts">
-        
-<div class='post-outer'>
-<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
-<meta content='9049082725044707162' itemprop='blogId'/>
-<meta content='2228386492738119920' itemprop='postId'/>
-<a name='2228386492738119920'></a>
-<div class='post-header'>
-<div class='post-header-line-1'></div>
-</div>
-<div class='post-body entry-content' id='post-body-2228386492738119920' itemprop='articleBody'>
-<p style="text-align: center;"><span style="color: #cc0000; font-size: large;"><span><b><u style="background-color: #eeeeee;">Updates</u></b></span></span></p><p style="text-align: left;"><span style="color: #cc0000;"><span><b><a href="https://drive.google.com/file/d/106OvcBBsq48Ha0JwHSps6E5OPnKFP9An/view?usp=sharing" target="_blank">T-SAT &amp; DD-Yadagiri Transmission Schedule from 05-1-2021 to 18-01-2021</a><br /></b></span></span></p><p style="text-align: left;"><span style="color: #cc0000;"><span><b><u style="background-color: #eeeeee;"><a href="https://drive.google.com/file/d/1USnT_n3gc9HOqnDYeOj97KK4o1hRAwX8/view?usp=sharing" target="_blank">HOLIDAYS- General Holidays and Optional Holidays for the year 2021 &#8211; Notified. G.O._RT 1756 GAD (SPL.E) Dept. Dt.09-11-2020</a><br /></u></b></span></span></p><p style="text-align: center;"><span style="color: #cc0000;"><span><b><u style="background-color: #eeeeee;"><span style="font-size: medium;"><a href="https://drive.google.com/file/d/1bVlTkZzX3JnzENcB3szM0oFApd5C4E_t/view?usp=sharing" target="_blank">TS PRC 2018 Proposals</a></span><br /></u></b></span></span></p><p style="text-align: left;"><span style="color: #cc0000;"><span><span style="background-color: #eeeeee;"><a href="https://drive.google.com/file/d/1Fnw_Vjm8dxcrjT_nGfEJAQPBBkenfQji/view?usp=sharing" target="_blank"><span style="font-family: times; font-size: large;">Inspire Manak awards Selected List 2020-21 </span></a><br /></span></span></span></p><p style="text-align: left;"><span><span><span><b><a href="https://drive.google.com/file/d/1pnjSQ0ph0UZ28FfqS6iJx4LpSVYSMWhk/view?usp=sharing" style="background-color: #eeeeee;" target="_blank">T-SAT &amp; DD Yadagiri Online Classes Schedule from 22-12-2020 to 04-01-2021</a></b></span></span></span></p><p style="text-align: left;"><span><u><b style="background-color: #eeeeee;"><span style="color: #ec1b18;"><a href="https://drive.google.com/file/d/1yQLiedw8KU_fNL6TlitABHu5hQGvcWaG/view?usp=sharing" target="_blank">Budget Release Order (1491) For an amount of 82,24,00,000/- For D.A. arrears and Deffered Salaries of Model School Staff G.O.Rt.No.113 School Edn.(Ser-III)-Dept Dt.18-12-2020</a></span><br /></b></u></span></p><p style="text-align: left;"><span><u><b style="background-color: #eeeeee;"><a href="https://drive.google.com/file/d/1iqLVL4jvl_GJtebkaCErx07AQ3BPyPb_/view?usp=sharing" target="_blank">TSPSC- Departmental Test Notification-Nov-2020</a><br /></b></u></span></p><p style="text-align: left;"><span><u><b style="background-color: #eeeeee;"><a href="https://drive.google.com/file/d/1pnjSQ0ph0UZ28FfqS6iJx4LpSVYSMWhk/view?usp=sharing" target="_blank">T-SAT &amp; DD Yadagiri  Online Classes Schedule from 28th,Dec-2020 to 8th,Jan-2021</a><br /></b></u></span></p><p style="text-align: left;"><span><u><a href="https://drive.google.com/file/d/1aLH0G1ZLnF_-1Gf5x-SWUl_Ekd9IpGF_/view?usp=sharing" target="_blank"><b style="background-color: #eeeeee;">Digital Classess Time Table From&nbsp; 08-12-2020 to 21-12-2020</b></a></u></span></p><p style="text-align: left;"><a href="https://drive.google.com/file/d/1kLgZ0-DAK5EUvd_7jXZcXTfKM5LkrGJD/view?usp=sharing" target="_blank"><span style="background-color: #eeeeee; color: black;">TS DA Rates Tables After RPS-2015 to 23-10-2020</span></a><br /></p><p style="text-align: left;"><a href="https://drive.google.com/file/d/1_XWoyK2UGOl9AnvxuuR-0SzpvcngiAxh/view?usp=sharing" target="_blank"><b><span style="color: #cc0000;">Model School Budget Estimates 2020-21 Completion of Model School Buildings B.E.An amount of Rs 6.725 Crores Administrative Orders Issued. G.O. RT. No. 111,  Dt 04-12-2020</span></b></a><br /></p><p style="text-align: left;"><a href="https://drive.google.com/file/d/1BWkBYsHn3o1Fv_w-jSmXepWZlgLacp5G/view?usp=sharing" target="_blank">Digital Classess 23-11-2020 to 07-12-2020</a><br /></p><p style="text-align: left;"><a href="https://drive.google.com/file/d/1tJynx1ikK2anE0jE5EWHyXzCHD_kDWUe/view?usp=sharing" target="_blank">Digital Lessons Time Table From 01-09-2020 to 23-11-2020&nbsp;</a><br /></p><p style="text-align: left;"><b><a href="https://drive.google.com/file/d/18JVkHngyo2mQGoKIFqM-He7bg3XudClw/view?usp=sharing" target="_blank">Telangana State _New DA 38.776% From 01-07-2019,&nbsp; GO.Ms.No.69. Dt.23-10-2020</a>&nbsp;</b></p><p style="text-align: left;"><a href="https://drive.google.com/file/d/1f9VkzXipRXEqkXPKwdLZ1PqHHqZip2Av/view?usp=sharing" target="_blank">Service Book Entries</a></p>
-<div style='clear: both;'></div>
-</div>
-<div class='post-footer'>
-<div class='post-footer-line post-footer-line-1'>
-<span class='post-author vcard'>
-</span>
-<span class='post-timestamp'>
-</span>
-<span class='reaction-buttons'>
-</span>
-<span class='post-comment-link'>
-</span>
-<span class='post-icons'>
-<span class='item-control blog-admin pid-1481456228'>
-<a href='https://www.blogger.com/post-edit.g?blogID=9049082725044707162&postID=2228386492738119920&from=pencil' title='Edit Post'>
-<img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
-</a>
-</span>
-</span>
-<div class='post-share-buttons goog-inline-block'>
-</div>
-</div>
-<div class='post-footer-line post-footer-line-2'>
-<span class='post-labels'>
-</span>
-</div>
-<div class='post-footer-line post-footer-line-3'>
-<span class='post-location'>
-</span>
-</div>
-</div>
-</div>
-</div>
-<div class='post-outer'>
-<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
-<meta content='9049082725044707162' itemprop='blogId'/>
-<meta content='7456314998187064908' itemprop='postId'/>
-<a name='7456314998187064908'></a>
-<div class='post-header'>
-<div class='post-header-line-1'></div>
-</div>
-<div class='post-body entry-content' id='post-body-7456314998187064908' itemprop='articleBody'>
-<span>MODEL SCHOOL Notification, Recruitment, Service Rules,</span><span>( TS Sub ordinate Rules, Leave Rules, and Child Care Leaves )</span><div><a href="https://drive.google.com/file/d/1dwNu_EhzNiEzb66Rh_p1Br-P13Bj2OzY/view?usp=sharing" target="_blank">Model School-Creation and Sanction of Posts-Finance.Dept G.O.Ms.No.254 Dt.03-12-2011</a><br /><span style="line-height: 20.7px;"><a href="https://drive.google.com/file/d/1n17f3-Amw3eOcTugTOgqPgC3ruX_5qff/view?usp=sharing" target="_blank">Model Schools Recruitment Notification Dt.06-02-2012</a></span><br /><span style="line-height: 20.7px;"><a href="https://drive.google.com/file/d/1ZiKN0uenEt-KQfC0lWgoJkyE6Y2LpGaQ/view?usp=sharing" target="_blank">Model Schools - Guidelines for Selection of Principals, PGTs and TGTs G.O. Ms.No.25 Edn Dept.&nbsp; &nbsp;Dt.04-04-2013</a></span><br /><a href="https://drive.google.com/file/d/1t2tHhYmmrxojbdbUHEfZdiDvfzymbxxa/view?usp=sharing" target="_blank">TS MODEL SCHOOLS LIST-194</a><br /><a href="https://drive.google.com/file/d/1yJUCK8OHWvf9aUkuj1SnalUIM_2Ge9gx/view?usp=sharing" target="_blank">TS Model School Service Rules For Employees-2019</a><br /><a href="https://drive.google.com/file/d/1Rd3xz0f6j1U36kpy6ZSbQ4G0lesgRGwO/view?usp=sharing" target="_blank">Telangana State_subordinate Service Rules 1996 -G.O.Ms.No.196 Gen Adm Dept.Dt.28-05-2016</a><br /><a href="https://drive.google.com/file/d/1XSkSn0ke9X0DUSdPtl_Y_mD-X2Qgqn4b/view?usp=sharing" target="_blank">TS LEAVE RULES 1933</a></div><div><span style="line-height: 20.7px;"><a href="https://drive.google.com/file/d/1xUK0hgV_bGJ3NifOME3jbnhnuvzcsldE/view?usp=sharing" target="_blank">Telangana-Child Care Leaves For Three Months 2016 FIN_MS 209</a></span></div><div><span style="color: red;"><a href="https://drive.google.com/drive/folders/1oX2J8UwW6edL7okRMSYRlawpG0-3WNWZ?usp=sharing" target="_blank">TSMS-PGTs -Zone-VI-Lists-2020</a><br /></span></div><div><br /></div><div><br /><p></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal"><o:p></o:p></p><div><br /></div></div>
-<div style='clear: both;'></div>
-</div>
-<div class='post-footer'>
-<div class='post-footer-line post-footer-line-1'>
-<span class='post-author vcard'>
-</span>
-<span class='post-timestamp'>
-</span>
-<span class='reaction-buttons'>
-</span>
-<span class='post-comment-link'>
-</span>
-<span class='post-icons'>
-<span class='item-control blog-admin pid-1481456228'>
-<a href='https://www.blogger.com/post-edit.g?blogID=9049082725044707162&postID=7456314998187064908&from=pencil' title='Edit Post'>
-<img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
-</a>
-</span>
-</span>
-<div class='post-share-buttons goog-inline-block'>
-</div>
-</div>
-<div class='post-footer-line post-footer-line-2'>
-<span class='post-labels'>
-</span>
-</div>
-<div class='post-footer-line post-footer-line-3'>
-<span class='post-location'>
-</span>
-</div>
-</div>
-</div>
-</div>
+  <div class='content'>
+  <div class='content-fauxcolumns'>
+    <div class='fauxcolumn-outer content-fauxcolumn-outer'>
+    <div class='cap-top'>
+      <div class='cap-left'/>
+      <div class='cap-right'/>
+    </div>
+    <div class='fauxborder-left'>
+    <div class='fauxborder-right'/>
+    <div class='fauxcolumn-inner'>
+    </div>
+    </div>
+    <div class='cap-bottom'>
+      <div class='cap-left'/>
+      <div class='cap-right'/>
+    </div>
+    </div>
+  </div>
 
-          </div></div>
-        
+  <div class='content-outer'>
+  <div class='content-cap-top cap-top'>
+    <div class='cap-left'/>
+    <div class='cap-right'/>
+  </div>
+  <div class='fauxborder-left content-fauxborder-left'>
+  <div class='fauxborder-right content-fauxborder-right'/>
+  <div class='content-inner'>
 
-          <div class="date-outer">
-        
+    <header>
+    <div class='header-outer'>
+    <div class='header-cap-top cap-top'>
+      <div class='cap-left'/>
+      <div class='cap-right'/>
+    </div>
+    <div class='fauxborder-left header-fauxborder-left'>
+    <div class='fauxborder-right header-fauxborder-right'/>
+    <div class='region-inner header-inner'>
+      <b:section class='header' id='header' maxwidgets='1' name='Header' showaddelement='no'>
+        <b:widget id='Header1' locked='false' title='TS MODEL SCHOOLS JR COLLEGES (Header)' type='Header'>
+          <b:widget-settings>
+            <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEjxb6hgXkDMgfWPnt-_2uZxnnW6LLQ1q6KOsmVvRxc16wabLruHyJwDQPuFwessth9_ZCJOLml-_taKF2yJxfvNxBQ391PTqaisoCz2i58IexOzi7RNUuABClLPo9n6BYPQpxwuafCV7YQ7-YazJ4QpZp_ogVMO5BiSplwArKBpZn78gHBV3dvS4VDOZg=s1307</b:widget-setting>
+            <b:widget-setting name='displayHeight'>163</b:widget-setting>
+            <b:widget-setting name='sectionWidth'>752</b:widget-setting>
+            <b:widget-setting name='useImage'>true</b:widget-setting>
+            <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+            <b:widget-setting name='imagePlacement'>BEFORE_DESCRIPTION</b:widget-setting>
+            <b:widget-setting name='displayWidth'>1307</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
 
-          <div class="date-posts">
-        
-<div class='post-outer'>
-<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
-<meta content='9049082725044707162' itemprop='blogId'/>
-<meta content='2111748273629804704' itemprop='postId'/>
-<a name='2111748273629804704'></a>
-<div class='post-header'>
-<div class='post-header-line-1'></div>
-</div>
-<div class='post-body entry-content' id='post-body-2111748273629804704' itemprop='articleBody'>
-<p>TS MODEL SCHOOLS WEBINAR CLASSESS FOR SENIOR INTERMEDIATE</p><a href="https://drive.google.com/file/d/1q0a3ykB1g2OsC8U-Du__iuXXVaMJsuaG/view?usp=sharing" target="_blank">TSMS Chemistry-II Yr WEBINAR Classess(26.08.20)</a><br /><a href="https://drive.google.com/file/d/12BXLZqhk2I0fCqqkjmxubSgYrRvHuMoX/view?usp=sharing" target="_blank">TSMS Physics -II Yr WEBINAR Classess(26.08.20)1</a><br /><a href="https://drive.google.com/file/d/1X6KmOVrGIb3YQHjzzrt18ZMbsAOg9juj/view?usp=sharing" target="_blank">TSMS Maths-II-A, Yr WEBINAR Classess(26.08.20)</a><br /><blockquote style="border: none; margin: 0px 0px 0px 40px; padding: 0px; text-align: left;"></blockquote><a href="https://drive.google.com/file/d/1Tven6lKL-2AXTT7c3Mq316nx6qQ1fqW2/view?usp=sharing" target="_blank">TSMS Maths-II-B, Yr WEBINAR Classess(26.08.20)1</a><br /><blockquote style="border: none; margin: 0px 0px 0px 40px; padding: 0px; text-align: left;"></blockquote><a href="https://drive.google.com/file/d/1FvIU0HvfwJlMVw0k6i06V6hfeccKd77Y/view?usp=sharing" target="_blank">TSMS Botany-II Yr WEBINAR Classess(26.08.20)</a><br /><blockquote style="border: none; margin: 0px 0px 0px 40px; padding: 0px; text-align: left;"></blockquote><a href="https://drive.google.com/file/d/1UG3jiahD4IsZOfz52sJl3ZbBQqukx0Kp/view?usp=sharing" target="_blank">TSMS Zoology-II Yr WEBINAR Classess(26.08.20)</a><br /><blockquote style="border: none; margin: 0px 0px 0px 40px; padding: 0px; text-align: left;"></blockquote><a href="https://drive.google.com/file/d/1K_DZwfFOvqg3dgDwBQlyw4iQPOiUIHQI/view?usp=sharing" target="_blank">TSMS Economics-II Yr WEBINAR Classess(26.08.20)</a><br /><blockquote style="border: none; margin: 0px 0px 0px 40px; padding: 0px; text-align: left;"></blockquote><a href="https://drive.google.com/file/d/1pM-kjALRcJey47gTYVN9NQnNBJROGKwG/view?usp=sharing" target="_blank">TSMS Political Science-II Yr WEBINAR Classess(26.08.20)</a><br /><blockquote style="border: none; margin: 0px 0px 0px 40px; padding: 0px; text-align: left;"></blockquote><a href="https://drive.google.com/file/d/1jaFVJTdggw5aQJk806rRNlk1Co8tpeAo/view?usp=sharing" target="_blank">TSMS Commerce-II Yr WEBINAR Classess(26.08.20)</a><br /><blockquote style="border: none; margin: 0px 0px 0px 40px; padding: 0px; text-align: left;"></blockquote><a href="https://drive.google.com/file/d/1aOwgIrVm1B8UczRj8tds7I_OPdjb08v_/view?usp=sharing" target="_blank">TSMS English-II Yr WEBINAR Classess(26.08.20)</a><br /><div style="text-align: left;"><a href="https://drive.google.com/file/d/1_qr0JahER7RXye5i92wpl97DyLMzjz6y/view?usp=sharing" target="_blank">TSMS Telugu-II Yr WEBINAR Classess(26.08.20)</a></div>
-<div style='clear: both;'></div>
-</div>
-<div class='post-footer'>
-<div class='post-footer-line post-footer-line-1'>
-<span class='post-author vcard'>
-</span>
-<span class='post-timestamp'>
-</span>
-<span class='reaction-buttons'>
-</span>
-<span class='post-comment-link'>
-</span>
-<span class='post-icons'>
-<span class='item-control blog-admin pid-1481456228'>
-<a href='https://www.blogger.com/post-edit.g?blogID=9049082725044707162&postID=2111748273629804704&from=pencil' title='Edit Post'>
-<img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
-</a>
-</span>
-</span>
-<div class='post-share-buttons goog-inline-block'>
-</div>
-</div>
-<div class='post-footer-line post-footer-line-2'>
-<span class='post-labels'>
-</span>
-</div>
-<div class='post-footer-line post-footer-line-3'>
-<span class='post-location'>
-</span>
-</div>
-</div>
-</div>
-</div>
+  <b:if cond='data:useImage'>
+    <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
+      <!--
+      Show image as background to text. You can't really calculate the width
+      reliably in JS because margins are not taken into account by any of
+      clientWidth, offsetWidth or scrollWidth, so we don't force a minimum
+      width if the user is using shrink to fit.
+      This results in a margin-width's worth of pixels being cropped. If the
+      user is not using shrink to fit then we expand the header.
+      -->
+      <b:if cond='data:mobile'>
+        <div id='header-inner'>
+          <div class='titlewrapper' style='background: transparent'>
+            <h1 class='title' style='background: transparent; border-width: 0px'>
+              <b:include name='title'/>
+            </h1>
+          </div>
+          <b:include name='description'/>
+        </div>
+      <b:else/>
+        <div expr:style='&quot;background-image: url(\&quot;&quot; + data:sourceUrl + &quot;\&quot;); &quot;                      + &quot;background-position: &quot;                      + data:backgroundPositionStyleStr + &quot;; &quot;                      + data:widthStyleStr                      + &quot;min-height: &quot; + data:height                      + &quot;_height: &quot; + data:height                      + &quot;background-repeat: no-repeat; &quot;' id='header-inner'>
+          <div class='titlewrapper' style='background: transparent'>
+            <h1 class='title' style='background: transparent; border-width: 0px'>
+              <b:include name='title'/>
+            </h1>
+          </div>
+          <b:include name='description'/>
+        </div>
+      </b:if>
+    <b:else/>
+      <!--Show the image only-->
+      <div id='header-inner'>
+        <a expr:href='data:blog.homepageUrl' style='display: block'>
+          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_headerimg&quot;' expr:src='data:sourceUrl' expr:width='data:width' style='display: block'/>
+        </a>
+        <!--Show the description-->
+        <b:if cond='data:imagePlacement == &quot;BEFORE_DESCRIPTION&quot;'>
+          <b:include name='description'/>
+        </b:if>
+      </div>
+    </b:if>
+  <b:else/>
+    <!--No header image -->
+    <div id='header-inner'>
+      <div class='titlewrapper'>
+        <h1 class='title'>
+          <b:include name='title'/>
+        </h1>
+      </div>
+      <b:include name='description'/>
+    </div>
+  </b:if>
+</b:includable>
+          <b:includable id='description'>
+  <div class='descriptionwrapper'>
+    <p class='description'><span><data:description/></span></p>
+  </div>
+</b:includable>
+          <b:includable id='title'>
+  <b:tag cond='data:blog.url != data:blog.homepageUrl' expr:href='data:blog.homepageUrl' name='a'>
+    <data:title/>
+  </b:tag>
+</b:includable>
+        </b:widget>
+      </b:section>
+    </div>
+    </div>
+    <div class='header-cap-bottom cap-bottom'>
+      <div class='cap-left'/>
+      <div class='cap-right'/>
+    </div>
+    </div>
+    </header>
 
-        </div></div>
-      
-</div>
-<div class='blog-pager' id='blog-pager'>
-<a class='home-link' href='https://tsmsignites.blogspot.com/'>Home</a>
-</div>
-<div class='clear'></div>
-<div class='blog-feeds'>
-<div class='feed-links'>
-Subscribe to:
-<a class='feed-link' href='https://tsmsignites.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Posts (Atom)</a>
-</div>
-</div>
-</div></div>
-</div>
-</div>
-<div class='column-left-outer'>
-<div class='column-left-inner'>
-<aside>
-<div class='sidebar section' id='sidebar-left-1'><div class='widget LinkList' data-version='1' id='LinkList3'>
-<h2>Telangana Online Classess</h2>
-<div class='widget-content'>
-<ul>
-<li><a href='https://www.youtube.com/channel/UC6V4nVa0CQkoLZUlg9drmZA'>DD-YADAGIRI Online Classess</a></li>
-<li><a href='https://www.tsat.tv/home'>T-SAT Online Classess</a></li>
-<li><a href='https://epathshala.nic.in/epathshala.php?ln=en'>NCERT-ePathshala For All</a></li>
-<li><a href='https://www.scert.telangana.gov.in/Worksheets_24082020/mobile/index.html'>SCERT-Work Sheets-I</a></li>
-<li><a href='https://www.scert.telangana.gov.in/Worksheets_27102020/mobile/index.html'>SCERT-Work Sheets-II</a></li>
-</ul>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList3"));' rel='nofollow' target='configLinkList3' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div><div class='widget LinkList' data-version='1' id='LinkList1'>
-<h2>TELANGANA MODEL SCHOOLS</h2>
-<div class='widget-content'>
-<ul>
-<li><a href='https://www.youtube.com/channel/UCr4y04v-xg5r8cQoiy3qNhA'>TSMS Webinar Classess For Senior Inter</a></li>
-<li><a href='https://www.youtube.com/channel/UCQJcqzEqa5I7qV49alDoPOA'>TSMS Webinar Classess For Junior Inter</a></li>
-</ul>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList1"));' rel='nofollow' target='configLinkList1' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div><div class='widget LinkList' data-version='1' id='LinkList2'>
-<h2>TSBIE-DD-YADAGIRI Online Classess</h2>
-<div class='widget-content'>
-<ul>
-<li><a href='https://www.youtube.com/playlist?list=PLpEjF93WjeZ2wIfqcQHzifoF6uJ5YNN8y'>Telugu-II-Year</a></li>
-<li><a href='https://www.youtube.com/c/DoordarshanYADAGIRI/search?query=HINDI'>Hindi-II-Year</a></li>
-<li><a href='https://www.youtube.com/playlist?list=PLpEjF93WjeZ27159fVLEuh5XArzMAyl_n'>English-II-Year</a></li>
-<li><a href='https://www.youtube.com/playlist?list=PLpEjF93WjeZ3wRMpyjGo1k3vUTGj-Fh1c'>Mathematics-II A</a></li>
-<li><a href='https://www.youtube.com/playlist?list=PLpEjF93WjeZ3pTE9VG1MHP9cEFPXMjo8C'>Mathematics-II B</a></li>
-<li><a href='https://www.youtube.com/playlist?list=PLpEjF93WjeZ09jfjdeInc_JvV8652rlZV'>Physics-II-Year</a></li>
-<li><a href='https://www.youtube.com/playlist?list=PLpEjF93WjeZ1vvtcrHGtB7EZ0VXs6QiHc'>Chemistry-II-Year</a></li>
-<li><a href='https://www.youtube.com/playlist?list=PLpEjF93WjeZ2NHlOxM0GODBIj1HxRqSA_'>Botany-II-Year</a></li>
-<li><a href='https://www.youtube.com/playlist?list=PLpEjF93WjeZ31uP5PHHWZNh1A3Wbo1Md4'>Zoology-II-Year</a></li>
-<li><a href='https://www.youtube.com/playlist?list=PLpEjF93WjeZ1kgNhzb5xJ47hImury0jWw'>Commerce-II-Year</a></li>
-<li><a href='https://www.youtube.com/playlist?list=PLpEjF93WjeZ10seRwgwb8QgV1bDPDsH3C'>Economics-II-Year</a></li>
-<li><a href='https://www.youtube.com/playlist?list=PLpEjF93WjeZ2T42lN-PbD_9laRRr7ZUZE'>Civics-II-Year</a></li>
-</ul>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList2"));' rel='nofollow' target='configLinkList2' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div><div class='widget LinkList' data-version='1' id='LinkList6'>
-<h2>SCHOLARSHIPS</h2>
-<div class='widget-content'>
-<ul>
-<li><a href='https://telanganaepass.cgg.gov.in/'>telangana e-pass.-Scholarships</a></li>
-<li><a href='https://scholarships.gov.in/'>National Scholarships</a></li>
-</ul>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList6"));' rel='nofollow' target='configLinkList6' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div><div class='widget LinkList' data-version='1' id='LinkList8'>
-<h2>FOR EMPLOYEES</h2>
-<div class='widget-content'>
-<ul>
-<li><a href='https://cra-nsdl.com/CRA/'>CPS - Statement</a></li>
-<li><a href='https://treasury.telangana.gov.in/docs_old/nps/CPS%20-%20GUIDE%20LINES.pdf'>CPS-Guidelines</a></li>
-<li><a href='https://treasury.telangana.gov.in/docs_old/nps/Gratuity_guidlines.PDF'>CPS-Gratuity_guidelines</a></li>
-<li><a href='https://www.incometaxindiaefiling.gov.in/home'>Income Tax-e-Filling Home Page</a></li>
-<li><a href='https://goir.telangana.gov.in/'>GOs issued by the Govt of Telangana</a></li>
-</ul>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList8"));' rel='nofollow' target='configLinkList8' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div><div class='widget Stats' data-version='1' id='Stats1'>
-<h2>Total Page views</h2>
-<div class='widget-content'>
-<div id='Stats1_content' style='display: none;'>
-<span class='counter-wrapper graph-counter-wrapper' id='Stats1_totalCount'>
-</span>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("Stats1"));' rel='nofollow' target='configStats1' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div>
-</div></div>
-<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
-<tbody>
-<tr>
-<td class='first columns-cell'>
-<div class='sidebar no-items section' id='sidebar-left-2-1'></div>
-</td>
-<td class='columns-cell'>
-<div class='sidebar no-items section' id='sidebar-left-2-2'></div>
-</td>
-</tr>
-</tbody>
-</table>
-<div class='sidebar no-items section' id='sidebar-left-3'></div>
-</aside>
-</div>
-</div>
-<div class='column-right-outer'>
-<div class='column-right-inner'>
-<aside>
-<div class='sidebar section' id='sidebar-right-1'><div class='widget Translate' data-version='1' id='Translate1'>
-<h2 class='title'>Translate</h2>
-<div id='google_translate_element'></div>
-<script>
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: 'en',
-        autoDisplay: 'true',
-        layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
-      }, 'google_translate_element');
-    }
-  </script>
-<script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("Translate1"));' rel='nofollow' target='configTranslate1' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div><div class='widget BlogSearch' data-version='1' id='BlogSearch1'>
-<h2 class='title'>Search This Blog</h2>
-<div class='widget-content'>
-<div id='BlogSearch1_form'>
-<form action='https://tsmsignites.blogspot.com/search' class='gsc-search-box' target='_top'>
-<table cellpadding='0' cellspacing='0' class='gsc-search-box'>
-<tbody>
-<tr>
-<td class='gsc-input'>
-<input autocomplete='off' class='gsc-input' name='q' size='10' title='search' type='text' value=''/>
-</td>
-<td class='gsc-search-button'>
-<input class='gsc-search-button' title='search' type='submit' value='Search'/>
-</td>
-</tr>
-</tbody>
-</table>
-</form>
-</div>
-</div>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogSearch1"));' rel='nofollow' target='configBlogSearch1' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div><div class='widget LinkList' data-version='1' id='LinkList5'>
-<h2>Science Projects links</h2>
-<div class='widget-content'>
-<ul>
-<li><a href='https://drive.google.com/drive/folders/1vsMVz13kg0_sYWdq2G7iMQOm1hPfq5sX?usp=sharing'>Vishweshwaraya Museum Banglore</a></li>
-<li><a href='http://www.online-inspire.gov.in/'> Online INSPIRE gov.in</a></li>
-<li><a href='http://www.inspireawards-dst.gov.in/'>Inspire Awards Site</a></li>
-<li><a href='http://www.olabs.edu.in/'>OLABS - Amrita Vishwa Vidyapeetham</a></li>
-<li><a href='https://www.juliantrubin.com/electricityprojects.html'>Electricity Projects</a></li>
-<li><a href='https://www.juliantrubin.com/earthsciencesprojects.html'>Earth Sciences and Geology Science Projects</a></li>
-<li><a href='https://www.juliantrubin.com/biologyprojects.html'>Biology Projects</a></li>
-</ul>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList5"));' rel='nofollow' target='configLinkList5' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div><div class='widget LinkList' data-version='1' id='LinkList13'>
-<h2>TSMS-Lab Materials For Four Subjects</h2>
-<div class='widget-content'>
-<ul>
-<li><a href='https://drive.google.com/file/d/1Dg9My_xAb4PeQvZ1iucsEgoH_sD8RyNf/view?usp=sharing'>TSMS-Lab Materials For Four Subjects</a></li>
-</ul>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList13"));' rel='nofollow' target='configLinkList13' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div><div class='widget LinkList' data-version='1' id='LinkList7'>
-<h2>Tentative PGTs &amp; TGTs Seniority Lists</h2>
-<div class='widget-content'>
-<ul>
-<li><a href='https://drive.google.com/file/d/1UEo8tKwyr7GYPjWA1lQCF4FaugkJJUKu/view?usp=sharing'>Tentative All zones PGTs Seniority Lists</a></li>
-<li><a href='https://drive.google.com/file/d/1UG2oX0PwgT50xxBsKioWLN54KTKS8Xcs/view?usp=sharing'>TSMS  Staff  Details  Zone-V</a></li>
-<li><a href='https://drive.google.com/file/d/1aYpVAIhqn16MR41dWfVPc19ossZE3dSO/view?usp=sharing'>TSMS  Staff  Details  Zone-VI </a></li>
-<li><a href='https://drive.google.com/drive/folders/12QzZbmCD8rLclTJg4UGWAnE3DzU8swyE?usp=sharing'>TGTs Seniority Lists Zone-V</a></li>
-<li><a href='https://drive.google.com/drive/folders/1eQYlyamv2BPPKIddU9q-Jc0bgfmjrE3l?usp=sharing'>PGTs Seniority lists -Zone-V</a></li>
-<li><a href='https://drive.google.com/drive/folders/14XO0SDhCxPHOBd5cFmLaIU3BypIVa0zV?usp=sharing'>TGTs Seniority Lists Zone-VI</a></li>
-<li><a href='https://drive.google.com/drive/folders/1-_j1L7VpnWeqPlpLnbf4F3xljacDFoWJ?usp=sharing'> PGTs Seniority lists -Zone-VI</a></li>
-</ul>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList7"));' rel='nofollow' target='configLinkList7' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div><div class='widget LinkList' data-version='1' id='LinkList11'>
-<div class='widget-content'>
-<ul>
-<li><a href='https://drive.google.com/file/d/1fynO_uiJWJCvZ6eRjBevNUSIVkRpA4pW/view?usp=sharing'>Length of Service / AGE Calculator</a></li>
-<li><a href='https://drive.google.com/file/d/1Z4mXhfZVIXVmbf73rOd6eQnlp5XqB0sz/view?usp=sharing'>ELs Calculator</a></li>
-</ul>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList11"));' rel='nofollow' target='configLinkList11' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div><div class='widget LinkList' data-version='1' id='LinkList4'>
-<h2>Departmental Tests Bulletins</h2>
-<div class='widget-content'>
-<ul>
-<li><a href='https://drive.google.com/file/d/16bCSSEKmjR1eUnPqbfL0SFHBn_snavlL/view?usp=sharing'>Departmental test Results for All Departments from 2007 to 2020</a></li>
-</ul>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList4"));' rel='nofollow' target='configLinkList4' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div><div class='widget LinkList' data-version='1' id='LinkList10'>
-<div class='widget-content'>
-<ul>
-<li><a href='https://drive.google.com/drive/folders/1vG7NIM7Lc1I4gYIbvm8myVBspO7tD8gE?usp=sharing'>PRAYER Activities</a></li>
-</ul>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList10"));' rel='nofollow' target='configLinkList10' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div><div class='widget FollowByEmail' data-version='1' id='FollowByEmail1'>
-<h2 class='title'>Follow by Email</h2>
-<div class='widget-content'>
-<div class='follow-by-email-inner'>
-<form action='https://feedburner.google.com/fb/a/mailverify' method='post' onsubmit='window.open("https://feedburner.google.com/fb/a/mailverify?uri=Tsmsignitesin", "popupwindow", "scrollbars=yes,width=550,height=520"); return true' target='popupwindow'>
-<table width='100%'>
-<tr>
-<td>
-<input class='follow-by-email-address' name='email' placeholder='Email address...' type='text'/>
-</td>
-<td width='64px'>
-<input class='follow-by-email-submit' type='submit' value='Submit'/>
-</td>
-</tr>
-</table>
-<input name='uri' type='hidden' value='Tsmsignitesin'/>
-<input name='loc' type='hidden' value='en_US'/>
-</form>
-</div>
-</div>
-<span class='item-control blog-admin'>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("FollowByEmail1"));' rel='nofollow' target='configFollowByEmail1' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</span>
-</div><div class='widget Followers' data-version='1' id='Followers1'>
-<h2 class='title'>Followers</h2>
-<div class='widget-content'>
-<div id='Followers1-wrapper'>
-<div style='margin-right:2px;'>
-<div><script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-<div id="followers-iframe-container"></div>
-<script type="text/javascript">
-    window.followersIframe = null;
-    function followersIframeOpen(url) {
-      gapi.load("gapi.iframes", function() {
-        if (gapi.iframes && gapi.iframes.getContext) {
-          window.followersIframe = gapi.iframes.getContext().openChild({
-            url: url,
-            where: document.getElementById("followers-iframe-container"),
-            messageHandlersFilter: gapi.iframes.CROSS_ORIGIN_IFRAMES_FILTER,
-            messageHandlers: {
-              '_ready': function(obj) {
-                window.followersIframe.getIframeEl().height = obj.height;
-              },
-              'reset': function() {
-                window.followersIframe.close();
-                followersIframeOpen("https://www.blogger.com/followers.g?blogID\x3d9049082725044707162\x26colors\x3dCgt0cmFuc3BhcmVudBILdHJhbnNwYXJlbnQaByNENTJDMUYiByM4MzAwMDgqC3RyYW5zcGFyZW50MgcjODM4MzgzOgcjRDUyQzFGQgcjODMwMDA4SgcjMDAwMDAwUgcjODMwMDA4Wgt0cmFuc3BhcmVudA%3D%3D\x26pageSize\x3d21\x26origin\x3dhttps://tsmsignites.blogspot.com/");
-              },
-              'open': function(url) {
-                window.followersIframe.close();
-                followersIframeOpen(url);
-              },
-              'blogger-ping': function() {
+    <div class='tabs-outer'>
+    <div class='tabs-cap-top cap-top'>
+      <div class='cap-left'/>
+      <div class='cap-right'/>
+    </div>
+    <div class='fauxborder-left tabs-fauxborder-left'>
+    <div class='fauxborder-right tabs-fauxborder-right'/>
+    <div class='region-inner tabs-inner'>
+      <b:section class='tabs' id='crosscol' maxwidgets='1' name='Cross-Column' showaddelement='yes'>
+        <b:widget id='HTML2' locked='false' title='TS MODEL SCHOOLS TELANGANA' type='HTML'>
+          <b:widget-settings>
+            <b:widget-setting name='content'><![CDATA[<marquee bgcolor="blue" style="color:white" scrollamount="6" direction="left"> TELANGANA STATE.... MODEL SCHOOLS.... & ....JUNIOR COLLEGES......... ENTER TO LEARN.............TRANSFORMING THE RURAL EDUCATION.......... BENCH MARK OF EXCELLENCE...........   LEAVE TO SERVE </marquee>]]></b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+        </b:widget>
+      </b:section>
+      <b:section class='tabs' id='crosscol-overflow' name='Cross-Column 2' showaddelement='no'>
+        <b:widget id='PageList1' locked='false' title='Pages' type='PageList'>
+          <b:widget-settings>
+            <b:widget-setting name='pageListJson'><![CDATA[{"1605420051950845363":{"href":"https://tsmsignites.blogspot.com/p/tsbie-exams-softwares-forms.html","position":6,"title":"TSBIE EXAMS SOFTWARES & FORMS"},"link1":{"href":"https://drive.google.com/drive/folders/1X7xspBIj9HUGouhdwZoqKy9L-8w1BBLA?usp=share_link","position":7,"title":" EXAMS Q.PAPERS (9th to INTER) "},"link0":{"href":"https://www.tsmodelschools.com/admissions/index.php","position":2,"title":"TSMS Intermediate Admissions"},"6199398577403037570":{"href":"https://tsmsignites.blogspot.com/p/ts-model-schools.html","position":0,"title":"TS MODEL SCHOOLS TELANGANA ( G.O.s &amp; Proceedings )"},"693162821500724676":{"href":"https://tsmsignites.blogspot.com/p/softwares.html","position":5,"title":"SOFTWARES"},"4807327546839892123":{"href":"https://tsmsignites.blogspot.com/p/tsms-admissions.html","position":3,"title":"TSMS-ADMISSIONS"},"link2":{"href":"https://drive.google.com/drive/folders/18C1cvpATNXw5lsifkZkCVC43VLN_LIpv?usp=share_link","position":8,"title":"SOFTWARES FOR FAs"},"4849772083914417011":{"href":"https://tsmsignites.blogspot.com/p/educational-sites.html","position":4,"title":"EDUCATIONAL SITES"},"1797519713526492725":{"href":"https://tsmsignites.blogspot.com/p/tsms-hrms.html","position":1,"title":"TSMS-HRMS"}}]]></b:widget-setting>
+            <b:widget-setting name='homeTitle'>Home</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <b:if cond='data:mobile'>
+      <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
+        <b:loop values='data:links' var='link'>
+          <option expr:value='data:link.href'>
+            <b:attr cond='data:link.isCurrentPage' name='selected' value='selected'/>
+            <data:link.title/>
+          </option>
+        </b:loop>
+      </select>
+      <span class='pagelist-arrow'>&amp;#9660;</span>
+    <b:else/>
+      <ul>
+        <b:loop values='data:links' var='link'>
+          <li>
+            <b:class cond='data:link.isCurrentPage' name='selected'/>
+            <a expr:href='data:link.href'><data:link.title/></a>
+          </li>
+        </b:loop>
+      </ul>
+    </b:if>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+        </b:widget>
+      </b:section>
+    </div>
+    </div>
+    <div class='tabs-cap-bottom cap-bottom'>
+      <div class='cap-left'/>
+      <div class='cap-right'/>
+    </div>
+    </div>
+
+    <div class='main-outer'>
+    <div class='main-cap-top cap-top'>
+      <div class='cap-left'/>
+      <div class='cap-right'/>
+    </div>
+
+    <div class='fauxborder-left main-fauxborder-left'>
+    <div class='fauxborder-right main-fauxborder-right'/>
+    <div class='region-inner main-inner'>
+
+      <div class='columns fauxcolumns'>
+
+        <div class='fauxcolumn-outer fauxcolumn-center-outer'>
+        <div class='cap-top'>
+          <div class='cap-left'/>
+          <div class='cap-right'/>
+        </div>
+        <div class='fauxborder-left'>
+        <div class='fauxborder-right'/>
+        <div class='fauxcolumn-inner'>
+        </div>
+        </div>
+        <div class='cap-bottom'>
+          <div class='cap-left'/>
+          <div class='cap-right'/>
+        </div>
+        </div>
+
+        <div class='fauxcolumn-outer fauxcolumn-left-outer'>
+        <div class='cap-top'>
+          <div class='cap-left'/>
+          <div class='cap-right'/>
+        </div>
+        <div class='fauxborder-left'>
+        <div class='fauxborder-right'/>
+        <div class='fauxcolumn-inner'>
+        </div>
+        </div>
+        <div class='cap-bottom'>
+          <div class='cap-left'/>
+          <div class='cap-right'/>
+        </div>
+        </div>
+
+        <div class='fauxcolumn-outer fauxcolumn-right-outer'>
+        <div class='cap-top'>
+          <div class='cap-left'/>
+          <div class='cap-right'/>
+        </div>
+        <div class='fauxborder-left'>
+        <div class='fauxborder-right'/>
+        <div class='fauxcolumn-inner'>
+        </div>
+        </div>
+        <div class='cap-bottom'>
+          <div class='cap-left'/>
+          <div class='cap-right'/>
+        </div>
+        </div>
+
+        <!-- corrects IE6 width calculation -->
+        <div class='columns-inner'>
+
+        <div class='column-center-outer'>
+        <div class='column-center-inner'>
+          <b:section class='main' id='main' name='Main' showaddelement='no'>
+            <b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog'>
+              <b:widget-settings>
+                <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+                <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
+                <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+                <b:widget-setting name='authorLabel'>By</b:widget-setting>
+                <b:widget-setting name='showCommentLink'>false</b:widget-setting>
+                <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+                <b:widget-setting name='postLocationLabel'>Location:INDIA</b:widget-setting>
+                <b:widget-setting name='showAuthor'>false</b:widget-setting>
+                <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+                <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+                <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+                <b:widget-setting name='reactionsLabel'/>
+                <b:widget-setting name='showAuthorProfile'>true</b:widget-setting>
+                <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+                <b:widget-setting name='showLabels'>true</b:widget-setting>
+                <b:widget-setting name='showLocation'>false</b:widget-setting>
+                <b:widget-setting name='showTimestamp'>false</b:widget-setting>
+                <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+                <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+                <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+                <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+                <b:widget-setting name='showReactions'>false</b:widget-setting>
+              </b:widget-settings>
+              <b:includable id='main' var='top'>
+  <b:if cond='!data:mobile'>
+    <!-- posts -->
+    <div class='blog-posts hfeed'>
+
+      <b:include data='top' name='status-message'/>
+
+      <b:loop values='data:posts' var='post'>
+        <b:if cond='data:post.isDateStart and not data:post.isFirstPost'>
+          &lt;/div&gt;&lt;/div&gt;
+        </b:if>
+        <b:if cond='data:post.isDateStart'>
+          &lt;div class=&quot;date-outer&quot;&gt;
+        </b:if>
+        <b:if cond='data:post.dateHeader'>
+          <h2 class='date-header'><span><data:post.dateHeader/></span></h2>
+        </b:if>
+        <b:if cond='data:post.isDateStart'>
+          &lt;div class=&quot;date-posts&quot;&gt;
+        </b:if>
+        <div class='post-outer'>
+          <b:include data='post' name='post'/>
+          <b:include cond='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;}' data='post' name='comment_picker'/>
+        </div>
+
+        <!-- Ad -->
+        <b:if cond='data:post.includeAd'>
+          <div class='inline-ad'>
+            <data:adCode/>
+          </div>
+        </b:if>
+      </b:loop>
+      <b:if cond='data:numPosts != 0'>
+        &lt;/div&gt;&lt;/div&gt;
+      </b:if>
+    </div>
+
+    <!-- navigation -->
+    <b:include name='nextprev'/>
+
+    <!-- feed links -->
+    <b:include name='feedLinks'/>
+
+  <b:else/>
+    <b:include name='mobile-main'/>
+  </b:if>
+</b:includable>
+              <b:includable id='backlinkDeleteIcon' var='backlink'/>
+              <b:includable id='backlinks' var='post'/>
+              <b:includable id='comment-form' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <h4 id='comment-post-message'>
+        <a expr:id='data:widget.instanceId + &quot;_comment-editor-toggle-link&quot;' href='javascript:void(0)'><data:postCommentMsg/></a></h4>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <h4 id='comment-post-message'><data:postCommentMsg/></h4>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+              <b:includable id='commentDeleteIcon' var='comment'>
+  <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
+    <b:if cond='data:showCmtPopup'>
+      <div class='goog-toggle-button'>
+        <div class='goog-inline-block comment-action-icon'/>
+      </div>
+    <b:else/>
+      <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'>
+        <img src='https://resources.blogblog.com/img/icon_delete13.gif'/>
+      </a>
+    </b:if>
+  </span>
+</b:includable>
+              <b:includable id='comment_count_picker' var='post'>
+  <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>
+    <data:post.commentLabelFull/>:
+  </a>
+</b:includable>
+              <b:includable id='comment_picker' var='post'>
+  <b:if cond='data:post.showThreadedComments'>
+    <b:include data='post' name='threaded_comments'/>
+  <b:else/>
+    <b:include data='post' name='comments'/>
+  </b:if>
+</b:includable>
+              <b:includable id='comments' var='post'>
+  <div class='comments' id='comments'>
+    <a name='comments'/>
+    <b:if cond='data:post.allowComments'>
+      <h4><data:post.commentLabelFull/>:</h4>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <span class='paging-control-container'>
+          <b:if cond='data:post.hasOlderLinks'>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'><data:post.oldestLinkText/></a>
+              &#160;
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'><data:post.olderLinkText/></a>
+              &#160;
+          </b:if>
+
+          <data:post.commentRangeText/>
+
+          <b:if cond='data:post.hasNewerLinks'>
+            &#160;
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'><data:post.newerLinkText/></a>
+            &#160;
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'><data:post.newestLinkText/></a>
+          </b:if>
+        </span>
+      </b:if>
+
+      <div expr:id='data:widget.instanceId + &quot;_comments-block-wrapper&quot;'>
+        <dl expr:class='data:post.avatarIndentClass' id='comments-block'>
+          <b:loop values='data:post.comments' var='comment'>
+            <dt expr:class='&quot;comment-author &quot; + data:comment.authorClass' expr:id='data:comment.anchorName'>
+              <b:if cond='data:comment.favicon'>
+                <img expr:src='data:comment.favicon' height='16px' style='margin-bottom:-2px;' width='16px'/>
+              </b:if>
+              <a expr:name='data:comment.anchorName'/>
+              <b:if cond='data:blog.enabledCommentProfileImages'>
+                <data:comment.authorAvatarImage/>
+              </b:if>
+              <b:if cond='data:comment.authorUrl'>
+                <a expr:href='data:comment.authorUrl' rel='nofollow'><data:comment.author/></a>
+              <b:else/>
+                <data:comment.author/>
+              </b:if>
+              <data:commentPostedByMsg/>
+            </dt>
+            <dd class='comment-body' expr:id='data:widget.instanceId + data:comment.cmtBodyIdPostfix'>
+              <b:if cond='data:comment.isDeleted'>
+                <span class='deleted-comment'><data:comment.body/></span>
+              <b:else/>
+                <p>
+                  <data:comment.body/>
+                </p>
+              </b:if>
+            </dd>
+            <dd class='comment-footer'>
+              <span class='comment-timestamp'>
+                <a expr:href='data:comment.url' title='comment permalink'>
+                  <data:comment.timestamp/>
+                </a>
+                <b:include data='comment' name='commentDeleteIcon'/>
+              </span>
+            </dd>
+          </b:loop>
+        </dl>
+      </div>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <span class='paging-control-container'>
+          <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'>
+            <data:post.oldestLinkText/>
+          </a>
+          <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'>
+            <data:post.olderLinkText/>
+          </a>
+          &#160;
+          <data:post.commentRangeText/>
+          &#160;
+          <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'>
+            <data:post.newerLinkText/>
+          </a>
+          <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'>
+            <data:post.newestLinkText/>
+          </a>
+        </span>
+      </b:if>
+
+      <p class='comment-footer'>
+        <b:if cond='data:post.embedCommentForm'>
+          <b:if cond='data:post.allowNewComments'>
+            <b:include data='post' name='comment-form'/>
+          <b:else/>
+            <data:post.noNewCommentsText/>
+          </b:if>
+        <b:elseif cond='data:post.allowComments'/>
+          <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
+        </b:if>
+      </p>
+    </b:if>
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+
+  </div>
+</b:includable>
+              <b:includable id='feedLinks'>
+  <b:if cond='data:blog.pageType != &quot;item&quot;'> <!-- Blog feed links -->
+    <b:if cond='data:feedLinks'>
+      <div class='blog-feeds'>
+        <b:include data='feedLinks' name='feedLinksBody'/>
+      </div>
+    </b:if>
+
+  <b:else/> <!--Post feed links -->
+    <div class='post-feeds'>
+      <b:loop values='data:posts' var='post'>
+        <b:include cond='data:post.allowComments and data:post.feedLinks' data='post.feedLinks' name='feedLinksBody'/>
+      </b:loop>
+    </div>
+  </b:if>
+</b:includable>
+              <b:includable id='feedLinksBody' var='links'>
+  <div class='feed-links'>
+  <data:feedLinksMsg/>
+  <b:loop values='data:links' var='f'>
+     <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a>
+  </b:loop>
+  </div>
+</b:includable>
+              <b:includable id='iframe_comments' var='post'>
+  <!-- G+ comments, no longer available. The includable is retained for backwards-compatibility. -->
+</b:includable>
+              <b:includable id='mobile-index-post' var='post'>
+  <div class='mobile-date-outer date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <div class='date-header'>
+        <span><data:post.dateHeader/></span>
+      </div>
+    </b:if>
+
+    <div class='mobile-post-outer'>
+      <a expr:href='data:post.url'>
+        <h3 class='mobile-index-title entry-title' itemprop='name'>
+          <data:post.title/>
+        </h3>
+
+        <div class='mobile-index-arrow'>&amp;rsaquo;</div>
+
+        <div class='mobile-index-contents'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <div class='mobile-index-thumbnail'>
+              <div class='Image'>
+                <img expr:src='data:post.thumbnailUrl'/>
+              </div>
+            </div>
+          </b:if>
+
+          <div class='post-body'>
+            <b:if cond='data:post.snippet'><data:post.snippet/></b:if>
+          </div>
+        </div>
+
+        <div style='clear: both;'/>
+      </a>
+
+      <div class='mobile-index-comment'>
+        <b:include cond='data:blog.pageType != &quot;static_page&quot;                          and data:post.allowComments                          and data:post.numComments != 0' data='post' name='comment_count_picker'/>
+      </div>
+    </div>
+  </div>
+</b:includable>
+              <b:includable id='mobile-main' var='top'>
+    <!-- posts -->
+    <div class='blog-posts hfeed'>
+
+      <b:include data='top' name='status-message'/>
+
+      <b:if cond='data:blog.pageType == &quot;index&quot;'>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-index-post'/>
+        </b:loop>
+      <b:else/>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-post'/>
+        </b:loop>
+      </b:if>
+    </div>
+
+   <b:include name='mobile-nextprev'/>
+</b:includable>
+              <b:includable id='mobile-nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-newer-link'>
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'>&amp;lsaquo;</a>
+      </div>
+    </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'>&amp;rsaquo;</a>
+      </div>
+    </b:if>
+
+    <div class='mobile-link-button' id='blog-pager-home-link'>
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+    </div>
+
+    <div class='mobile-desktop-link'>
+      <a class='home-link' expr:href='data:desktopLinkUrl'><data:desktopLinkMsg/></a>
+    </div>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+              <b:includable id='mobile-post' var='post'>
+  <div class='date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <h2 class='date-header'><span><data:post.dateHeader/></span></h2>
+    </b:if>
+    <div class='date-posts'>
+      <div class='post-outer'>
+
+        <div class='post hentry uncustomized-post-template' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <meta expr:content='data:post.thumbnailUrl' itemprop='image_url'/>
+          </b:if>
+          <meta expr:content='data:blog.blogId' itemprop='blogId'/>
+          <meta expr:content='data:post.id' itemprop='postId'/>
+
+          <a expr:name='data:post.id'/>
+          <b:if cond='data:post.title'>
+            <h3 class='post-title entry-title' itemprop='name'>
+              <b:if cond='data:post.link'>
+                <a expr:href='data:post.link'><data:post.title/></a>
+              <b:elseif cond='data:post.url and data:blog.url != data:post.url'/>
+                <a expr:href='data:post.url'><data:post.title/></a>
+              <b:else/>
+                <data:post.title/>
+              </b:if>
+            </h3>
+          </b:if>
+
+          <div class='post-header'>
+            <div class='post-header-line-1'/>
+          </div>
+
+          <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
+            <data:post.body/>
+            <div style='clear: both;'/> <!-- clear for photos floats -->
+          </div>
+
+          <div class='post-footer'>
+            <div class='post-footer-line post-footer-line-1'>
+              <span class='post-author vcard'>
+                <b:if cond='data:top.showAuthor'>
+                  <b:if cond='data:post.authorProfileUrl'>
+                    <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                      <meta expr:content='data:post.authorProfileUrl' itemprop='url'/>
+                      <a expr:href='data:post.authorProfileUrl' rel='author' title='author profile'>
+                        <span itemprop='name'><data:post.author/></span>
+                      </a>
+                    </span>
+                  <b:else/>
+                    <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                      <span itemprop='name'><data:post.author/></span>
+                    </span>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-timestamp'>
+                <b:if cond='data:top.showTimestamp'>
+                  <data:top.timestampLabel/>
+                  <b:if cond='data:post.url'>
+                    <meta expr:content='data:post.url.canonical' itemprop='url'/>
+                    <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'><data:post.timestamp/></abbr></a>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-comment-link'>
+                <b:include cond='data:blog.pageType not in {&quot;item&quot;,&quot;static_page&quot;}                                  and data:post.allowComments' data='post' name='comment_count_picker'/>
+              </span>
+            </div>
+
+            <div class='post-footer-line post-footer-line-2'>
+              <b:if cond='data:top.showMobileShare'>
+                <div class='mobile-link-button goog-inline-block' id='mobile-share-button'>
+                  <a href='javascript:void(0);'><data:shareMsg/></a>
+                </div>
+              </b:if>
+            </div>
+
+          </div>
+        </div>
+
+        <b:include cond='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;}' data='post' name='comment_picker'/>
+      </div>
+    </div>
+  </div>
+</b:includable>
+              <b:includable id='nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      <span id='blog-pager-newer-link'>
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'><data:newerPageTitle/></a>
+      </span>
+    </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      <span id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'><data:olderPageTitle/></a>
+      </span>
+    </b:if>
+
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+
+    <b:if cond='data:mobileLinkUrl'>
+      <div class='blog-mobile-link'>
+        <a expr:href='data:mobileLinkUrl'><data:mobileLinkMsg/></a>
+      </div>
+    </b:if>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+              <b:includable id='post' var='post'>
+  <div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+    <b:if cond='data:post.firstImageUrl'>
+      <meta expr:content='data:post.firstImageUrl' itemprop='image_url'/>
+    </b:if>
+    <meta expr:content='data:blog.blogId' itemprop='blogId'/>
+    <meta expr:content='data:post.id' itemprop='postId'/>
+
+    <a expr:name='data:post.id'/>
+    <b:if cond='data:post.title'>
+      <h3 class='post-title entry-title' itemprop='name'>
+      <b:if cond='data:post.link or (data:post.url and data:blog.url != data:post.url)'>
+        <a expr:href='data:post.link ? data:post.link : data:post.url'><data:post.title/></a>
+      <b:else/>
+        <data:post.title/>
+      </b:if>
+      </h3>
+    </b:if>
+
+    <div class='post-header'>
+    <div class='post-header-line-1'/>
+    </div>
+
+    <!-- Then use the post body as the schema.org description, for good G+/FB snippeting. -->
+    <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' expr:itemprop='(data:blog.metaDescription ? &quot;&quot; : &quot;description &quot;) + &quot;articleBody&quot;'>
+      <data:post.body/>
+      <div style='clear: both;'/> <!-- clear for photos floats -->
+    </div>
+
+    <b:if cond='data:post.hasJumpLink'>
+      <div class='jump-link'>
+        <a expr:href='data:post.url + &quot;#more&quot;' expr:title='data:post.title'><data:post.jumpText/></a>
+      </div>
+    </b:if>
+
+    <div class='post-footer'>
+    <div class='post-footer-line post-footer-line-1'>
+      <span class='post-author vcard'>
+        <b:if cond='data:top.showAuthor'>
+          <data:top.authorLabel/>
+            <b:if cond='data:post.authorProfileUrl'>
+              <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                <meta expr:content='data:post.authorProfileUrl' itemprop='url'/>
+                <a class='g-profile' expr:href='data:post.authorProfileUrl' rel='author' title='author profile'>
+                  <span itemprop='name'><data:post.author/></span>
+                </a>
+              </span>
+            <b:else/>
+              <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                <span itemprop='name'><data:post.author/></span>
+              </span>
+            </b:if>
+        </b:if>
+      </span>
+
+      <span class='post-timestamp'>
+        <b:if cond='data:top.showTimestamp'>
+          <data:top.timestampLabel/>
+          <b:if cond='data:post.url'>
+            <meta expr:content='data:post.url.canonical' itemprop='url'/>
+            <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'><data:post.timestamp/></abbr></a>
+          </b:if>
+        </b:if>
+      </span>
+
+      <span class='post-comment-link'>
+        <b:include cond='data:blog.pageType not in {&quot;item&quot;,&quot;static_page&quot;}                          and data:post.allowComments' data='post' name='comment_count_picker'/>
+      </span>
+
+      <span class='post-icons'>
+        <!-- email post links -->
+        <b:if cond='data:post.emailPostUrl'>
+          <span class='item-action'>
+          <a expr:href='data:post.emailPostUrl' expr:title='data:top.emailPostMsg'>
+            <img alt='' class='icon-action' height='13' src='https://resources.blogblog.com/img/icon18_email.gif' width='18'/>
+          </a>
+          </span>
+        </b:if>
+
+        <!-- quickedit pencil -->
+        <b:include data='post' name='postQuickEdit'/>
+      </span>
+
+      <!-- share buttons -->
+      <div class='post-share-buttons goog-inline-block'>
+        <b:include cond='data:post.sharePostUrl' data='post' name='shareButtons'/>
+      </div>
+
+      </div>
+
+      <div class='post-footer-line post-footer-line-2'>
+      <span class='post-labels'>
+        <b:if cond='data:top.showPostLabels and data:post.labels'>
+          <data:postLabelsLabel/>
+          <b:loop values='data:post.labels' var='label'>
+            <a expr:href='data:label.url' rel='tag'><data:label.name/></a><b:if cond='not data:label.isLast'>,</b:if>
+          </b:loop>
+        </b:if>
+      </span>
+      </div>
+
+      <div class='post-footer-line post-footer-line-3'>
+      <span class='post-location'>
+        <b:if cond='data:top.showLocation and data:post.location'>
+          <data:postLocationLabel/>
+          <a expr:href='data:post.location.mapsUrl' target='_blank'><data:post.location.name/></a>
+        </b:if>
+      </span>
+      </div>
+      <b:if cond='data:post.authorAboutMe'>
+        <div class='author-profile' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+          <b:if cond='data:post.authorPhoto.url'>
+            <img expr:src='data:post.authorPhoto.url' itemprop='image' width='50px'/>
+          </b:if>
+          <div>
+            <a class='g-profile' expr:href='data:post.authorProfileUrl' itemprop='url' rel='author' title='author profile'>
+              <span itemprop='name'><data:post.author/></span>
+            </a>
+          </div>
+          <span itemprop='description'><data:post.authorAboutMe/></span>
+        </div>
+      </b:if>
+    </div>
+  </div>
+</b:includable>
+              <b:includable id='postQuickEdit' var='post'>
+  <b:if cond='data:post.editUrl'>
+    <span expr:class='&quot;item-control &quot; + data:post.adminClass'>
+      <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
+        <img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+      </a>
+    </span>
+  </b:if>
+</b:includable>
+              <b:includable id='shareButtons' var='post'>
+  <b:if cond='data:top.showEmailButton'><a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg' target='_blank'><span class='share-button-link-text'><data:top.emailThisMsg/></span></a></b:if><b:if cond='data:top.showBlogThisButton'><a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &quot;&amp;target=blog&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' expr:title='data:top.blogThisMsg' target='_blank'><span class='share-button-link-text'><data:top.blogThisMsg/></span></a></b:if><b:if cond='data:top.showTwitterButton'><a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &quot;&amp;target=twitter&quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToTwitterMsg/></span></a></b:if><b:if cond='data:top.showFacebookButton'><a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &quot;&amp;target=facebook&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToFacebookMsg/></span></a></b:if><b:if cond='data:top.showPinterestButton'><a class='goog-inline-block share-button sb-pinterest' expr:href='data:post.sharePostUrl + &quot;&amp;target=pinterest&quot;' expr:title='data:top.shareToPinterestMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToPinterestMsg/></span></a></b:if>
+</b:includable>
+              <b:includable id='status-message'>
+  <b:if cond='data:navMessage'>
+  <div class='status-msg-wrap'>
+    <div class='status-msg-body'>
+      <data:navMessage/>
+    </div>
+    <div class='status-msg-border'>
+      <div class='status-msg-bg'>
+        <div class='status-msg-hidden'><data:navMessage/></div>
+      </div>
+    </div>
+  </div>
+  <div style='clear: both;'/>
+  </b:if>
+</b:includable>
+              <b:includable id='threaded-comment-form' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+              <b:includable id='threaded_comment_js' var='post'>
+  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
+
+  <script type='text/javascript'>
+    (function() {
+      var items = <data:post.commentJso/>;
+      var msgs = <data:post.commentMsgs/>;
+      var config = <data:post.commentConfig/>;
+
+// <![CDATA[
+      var cursor = null;
+      if (items && items.length > 0) {
+        cursor = parseInt(items[items.length - 1].timestamp) + 1;
+      }
+
+      var bodyFromEntry = function(entry) {
+        var text = (entry &&
+                    ((entry.content && entry.content.$t) ||
+                     (entry.summary && entry.summary.$t))) ||
+            '';
+        if (entry && entry.gd$extendedProperty) {
+          for (var k in entry.gd$extendedProperty) {
+            if (entry.gd$extendedProperty[k].name == 'blogger.contentRemoved') {
+              return '<span class="deleted-comment">' + text + '</span>';
+            }
+          }
+        }
+        return text;
+      }
+
+      var parse = function(data) {
+        cursor = null;
+        var comments = [];
+        if (data && data.feed && data.feed.entry) {
+          for (var i = 0, entry; entry = data.feed.entry[i]; i++) {
+            var comment = {};
+            // comment ID, parsed out of the original id format
+            var id = /blog-(\d+).post-(\d+)/.exec(entry.id.$t);
+            comment.id = id ? id[2] : null;
+            comment.body = bodyFromEntry(entry);
+            comment.timestamp = Date.parse(entry.published.$t) + '';
+            if (entry.author && entry.author.constructor === Array) {
+              var auth = entry.author[0];
+              if (auth) {
+                comment.author = {
+                  name: (auth.name ? auth.name.$t : undefined),
+                  profileUrl: (auth.uri ? auth.uri.$t : undefined),
+                  avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined)
+                };
               }
             }
-          });
+            if (entry.link) {
+              if (entry.link[2]) {
+                comment.link = comment.permalink = entry.link[2].href;
+              }
+              if (entry.link[3]) {
+                var pid = /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href);
+                if (pid && pid[1]) {
+                  comment.parentId = pid[1];
+                }
+              }
+            }
+            comment.deleteclass = 'item-control blog-admin';
+            if (entry.gd$extendedProperty) {
+              for (var k in entry.gd$extendedProperty) {
+                if (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
+                  comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value;
+                } else if (entry.gd$extendedProperty[k].name == 'blogger.displayTime') {
+                  comment.displayTime = entry.gd$extendedProperty[k].value;
+                }
+              }
+            }
+            comments.push(comment);
+          }
         }
-      });
-    }
-    followersIframeOpen("https://www.blogger.com/followers.g?blogID\x3d9049082725044707162\x26colors\x3dCgt0cmFuc3BhcmVudBILdHJhbnNwYXJlbnQaByNENTJDMUYiByM4MzAwMDgqC3RyYW5zcGFyZW50MgcjODM4MzgzOgcjRDUyQzFGQgcjODMwMDA4SgcjMDAwMDAwUgcjODMwMDA4Wgt0cmFuc3BhcmVudA%3D%3D\x26pageSize\x3d21\x26origin\x3dhttps://tsmsignites.blogspot.com/");
-  </script></div>
-</div>
-</div>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("Followers1"));' rel='nofollow' target='configFollowers1' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div>
-</div>
-</aside>
-</div>
-</div>
-</div>
-<div style='clear: both'></div>
-<!-- columns -->
-</div>
-<!-- main -->
-</div>
-</div>
-<div class='main-cap-bottom cap-bottom'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-</div>
-<footer>
-<div class='footer-outer'>
-<div class='footer-cap-top cap-top'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-<div class='fauxborder-left footer-fauxborder-left'>
-<div class='fauxborder-right footer-fauxborder-right'></div>
-<div class='region-inner footer-inner'>
-<div class='foot no-items section' id='footer-1'>
-</div>
-<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-3'>
-<tbody>
-<tr>
-<td class='first columns-cell'>
-<div class='foot no-items section' id='footer-2-1'></div>
-</td>
-<td class='columns-cell'>
-<div class='foot no-items section' id='footer-2-2'></div>
-</td>
-<td class='columns-cell'>
-<div class='foot no-items section' id='footer-2-3'></div>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- outside of the include in order to lock Attribution widget -->
-<div class='foot section' id='footer-3' name='Footer'><div class='widget Attribution' data-version='1' id='Attribution1'>
-<div class='widget-content' style='text-align: center;'>
-Theme images by <a href='http://www.istockphoto.com/portfolio/mammuth?platform=blogger' target='_blank'>mammuth</a>. Powered by <a href='https://www.blogger.com' target='_blank'>Blogger</a>.
-</div>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' onclick='return _WidgetManager._PopupConfig(document.getElementById("Attribution1"));' rel='nofollow' target='configAttribution1' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div></div>
-</div>
-</div>
-<div class='footer-cap-bottom cap-bottom'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-</div>
-</footer>
-<!-- content -->
-</div>
-</div>
-<div class='content-cap-bottom cap-bottom'>
-<div class='cap-left'></div>
-<div class='cap-right'></div>
-</div>
-</div>
-</div>
-<script type='text/javascript'>
+        return comments;
+      };
+
+      var paginator = function(callback) {
+        if (hasMore()) {
+          var url = config.feed + '?alt=json&v=2&orderby=published&reverse=false&max-results=50';
+          if (cursor) {
+            url += '&published-min=' + new Date(cursor).toISOString();
+          }
+          window.bloggercomments = function(data) {
+            var parsed = parse(data);
+            cursor = parsed.length < 50 ? null
+                : parseInt(parsed[parsed.length - 1].timestamp) + 1
+            callback(parsed);
+            window.bloggercomments = null;
+          }
+          url += '&callback=bloggercomments';
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = url;
+          document.getElementsByTagName('head')[0].appendChild(script);
+        }
+      };
+      var hasMore = function() {
+        return !!cursor;
+      };
+      var getMeta = function(key, comment) {
+        if ('iswriter' == key) {
+          var matches = !!comment.author
+              && comment.author.name == config.authorName
+              && comment.author.profileUrl == config.authorUrl;
+          return matches ? 'true' : '';
+        } else if ('deletelink' == key) {
+          return config.baseUri + '/delete-comment.g?blogID='
+               + config.blogId + '&postID=' + comment.id;
+        } else if ('deleteclass' == key) {
+          return comment.deleteclass;
+        }
+        return '';
+      };
+
+      var replybox = null;
+      var replyUrlParts = null;
+      var replyParent = undefined;
+
+      var onReply = function(commentId, domId) {
+        if (replybox == null) {
+          // lazily cache replybox, and adjust to suit this style:
+          replybox = document.getElementById('comment-editor');
+          if (replybox != null) {
+            replybox.height = '250px';
+            replybox.style.display = 'block';
+            replyUrlParts = replybox.src.split('#');
+          }
+        }
+        if (replybox && (commentId !== replyParent)) {
+          replybox.src = '';
+          document.getElementById(domId).insertBefore(replybox, null);
+          replybox.src = replyUrlParts[0]
+              + (commentId ? '&parentID=' + commentId : '')
+              + '#' + replyUrlParts[1];
+          replyParent = commentId;
+        }
+      };
+
+      var hash = (window.location.hash || '#').substring(1);
+      var startThread, targetComment;
+      if (/^comment-form_/.test(hash)) {
+        startThread = hash.substring('comment-form_'.length);
+      } else if (/^c[0-9]+$/.test(hash)) {
+        targetComment = hash.substring(1);
+      }
+
+      // Configure commenting API:
+      var configJso = {
+        'maxDepth': config.maxThreadDepth
+      };
+      var provider = {
+        'id': config.postId,
+        'data': items,
+        'loadNext': paginator,
+        'hasMore': hasMore,
+        'getMeta': getMeta,
+        'onReply': onReply,
+        'rendered': true,
+        'initComment': targetComment,
+        'initReplyThread': startThread,
+        'config': configJso,
+        'messages': msgs
+      };
+
+      var render = function() {
+        if (window.goog && window.goog.comments) {
+          var holder = document.getElementById('comment-holder');
+          window.goog.comments.render(holder, provider);
+        }
+      };
+
+      // render now, or queue to render when library loads:
+      if (window.goog && window.goog.comments) {
+        render();
+      } else {
+        window.goog = window.goog || {};
+        window.goog.comments = window.goog.comments || {};
+        window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
+        window.goog.comments.loadQueue.push(render);
+      }
+    })();
+// ]]>
+  </script>
+</b:includable>
+              <b:includable id='threaded_comments' var='post'>
+  <div class='comments' id='comments'>
+    <a name='comments'/>
+    <h4><data:post.commentLabelFull/>:</h4>
+
+    <div class='comments-content'>
+      <b:include cond='data:post.embedCommentForm' data='post' name='threaded_comment_js'/>
+      <div id='comment-holder'>
+         <data:post.commentHtml/>
+      </div>
+    </div>
+
+    <p class='comment-footer'>
+      <b:if cond='data:post.allowNewComments'>
+        <b:include data='post' name='threaded-comment-form'/>
+      <b:else/>
+        <data:post.noNewCommentsText/>
+      </b:if>
+    </p>
+
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+
+    <div id='backlinks-container'>
+    <div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+    </div>
+    </div>
+  </div>
+</b:includable>
+            </b:widget>
+          </b:section>
+        </div>
+        </div>
+
+        <div class='column-left-outer'>
+        <div class='column-left-inner'>
+          <aside>
+          <macro:include id='main-column-left-sections' name='sections'>
+            <macro:param default='0' name='num' value='2'/>
+            <macro:param default='sidebar-left' name='idPrefix'/>
+            <macro:param default='sidebar' name='class'/>
+            <macro:param default='true' name='includeBottom'/>
+          </macro:include>
+          </aside>
+        </div>
+        </div>
+
+        <div class='column-right-outer'>
+        <div class='column-right-inner'>
+          <aside>
+          <macro:include id='main-column-right-sections' name='sections'>
+            <macro:param default='2' name='num' value='1'/>
+            <macro:param default='sidebar-right' name='idPrefix'/>
+            <macro:param default='sidebar' name='class'/>
+            <macro:param default='true' name='includeBottom'/>
+          </macro:include>
+          </aside>
+        </div>
+        </div>
+
+        </div>
+
+        <div style='clear: both'/>
+      <!-- columns -->
+      </div>
+
+    <!-- main -->
+    </div>
+    </div>
+    <div class='main-cap-bottom cap-bottom'>
+      <div class='cap-left'/>
+      <div class='cap-right'/>
+    </div>
+    </div>
+
+    <footer>
+    <div class='footer-outer'>
+    <div class='footer-cap-top cap-top'>
+      <div class='cap-left'/>
+      <div class='cap-right'/>
+    </div>
+    <div class='fauxborder-left footer-fauxborder-left'>
+    <div class='fauxborder-right footer-fauxborder-right'/>
+    <div class='region-inner footer-inner'>
+      <macro:include id='footer-sections' name='sections'>
+        <macro:param default='2' name='num' value='3'/>
+        <macro:param default='footer' name='idPrefix'/>
+        <macro:param default='foot' name='class'/>
+        <macro:param default='false' name='includeBottom'/>
+      </macro:include>
+      <!-- outside of the include in order to lock Attribution widget -->
+      <b:section class='foot' id='footer-3' name='Footer' showaddelement='no'/>
+    </div>
+    </div>
+    <div class='footer-cap-bottom cap-bottom'>
+      <div class='cap-left'/>
+      <div class='cap-right'/>
+    </div>
+    </div>
+    </footer>
+
+  <!-- content -->
+  </div>
+  </div>
+  <div class='content-cap-bottom cap-bottom'>
+    <div class='cap-left'/>
+    <div class='cap-right'/>
+  </div>
+  </div>
+  </div>
+
+  <script type='text/javascript'>
     window.setTimeout(function() {
-        document.body.className = document.body.className.replace('loading', '');
+        document.body.className = document.body.className.replace(&#39;loading&#39;, &#39;&#39;);
       }, 10);
   </script>
-<!-- GetButton.io widget -->
+    <!-- GetButton.io widget -->
 <script type='text/javascript'>
     (function () {
         var options = {
-            whatsapp: "+91 9010645495", // WhatsApp number
-            call_to_action: "Message us", // Call to action
-            position: "left", // Position may be 'right' or 'left'
+            whatsapp: &quot;+91 9010645495&quot;, // WhatsApp number
+            call_to_action: &quot;Message us&quot;, // Call to action
+            position: &quot;left&quot;, // Position may be &#39;right&#39; or &#39;left&#39;
         };
-        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        var proto = document.location.protocol, host = &quot;getbutton.io&quot;, url = proto + &quot;//static.&quot; + host;
+        var s = document.createElement(&#39;script&#39;); s.type = &#39;text/javascript&#39;; s.async = true; s.src = url + &#39;/widget-send-button/js/init.js&#39;;
         s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        var x = document.getElementsByTagName(&#39;script&#39;)[0]; x.parentNode.insertBefore(s, x);
     })();
 </script>
 <!-- /GetButton.io widget -->
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5fe035f180fb9b5f' type='text/javascript'></script>
+   <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5fe035f180fb9b5f' type='text/javascript'/>
+           </body>
 
-<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/4136842261-widgets.js"></script>
-<script type='text/javascript'>
-window['__wavt'] = 'AOuZoY4ItxLyc8bRgihtBGWtJTKbXaSgzQ:1610980253890';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d9049082725044707162','//tsmsignites.blogspot.com/','9049082725044707162');
-_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '9049082725044707162', 'title': 'tsmsignites.blogspot.com', 'url': 'https://tsmsignites.blogspot.com/', 'canonicalUrl': 'https://tsmsignites.blogspot.com/', 'homepageUrl': 'https://tsmsignites.blogspot.com/', 'searchUrl': 'https://tsmsignites.blogspot.com/search', 'canonicalHomepageUrl': 'https://tsmsignites.blogspot.com/', 'blogspotFaviconUrl': 'https://tsmsignites.blogspot.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'isDynamicViewsAvailable': true, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22tsmsignites.blogspot.com - Atom\x22 href\x3d\x22https://tsmsignites.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22tsmsignites.blogspot.com - RSS\x22 href\x3d\x22https://tsmsignites.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22tsmsignites.blogspot.com - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/9049082725044707162/posts/default\x22 /\x3e\n', 'meTag': '', 'adsenseClientId': 'ca-pub-5617722137377548', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'ieCssRetrofitLinks': '\x3c!--[if IE]\x3e\x3cscript type\x3d\x22text/javascript\x22 src\x3d\x22https://www.blogger.com/static/v1/jsbin/4126505014-ieretrofit.js\x22\x3e\x3c/script\x3e\n\x3c![endif]--\x3e', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/f837734b9e34776c', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'disableGComments': true, 'sharing': {'platforms': [{'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Read more', 'pageType': 'index', 'pageName': '', 'pageTitle': 'tsmsignites.blogspot.com', 'metaDescription': 'Move ahead with technoogy updates'}}, {'name': 'features', 'data': {'sharing_get_link_dialog': 'true', 'sharing_native': 'false'}}, {'name': 'messages', 'data': {'edit': 'Edit', 'linkCopiedToClipboard': 'Link copied to clipboard!', 'ok': 'Ok', 'postLink': 'Post Link'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Custom', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'tsmsignites.blogspot.com', 'description': 'Move ahead with technoogy updates', 'url': 'https://tsmsignites.blogspot.com/', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': true, 'isArchive': false, 'isLabelSearch': false}}]);
-_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', document.getElementById('Navbar1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', document.getElementById('Header1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'crosscol', document.getElementById('HTML2'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList2', 'crosscol-overflow', document.getElementById('PageList2'), {'title': '', 'links': [{'isCurrentPage': true, 'href': 'https://tsmsignites.blogspot.com/', 'title': 'Home'}, {'isCurrentPage': false, 'href': 'https://telanganams.cgg.gov.in/TSMSWEB20/#!/home19terght567.rps', 'title': 'Telangana Model Schools - Admissions'}, {'isCurrentPage': false, 'href': 'https://tgmshrms.cgg.gov.in/login.do', 'title': 'TSMS-HRMS'}, {'isCurrentPage': false, 'href': 'https://drive.google.com/file/d/1yJUCK8OHWvf9aUkuj1SnalUIM_2Ge9gx/view?usp\x3dsharing', 'title': 'TSMS Service Rules-2019'}, {'isCurrentPage': false, 'href': 'https://drive.google.com/file/d/1YiAhNnGG7M6VafKsk4dBIDOUphVKBhhT/view?usp\x3dsharing', 'title': 'G.O.s 2013 - 2019 \x26 PRC-1986-2015'}, {'isCurrentPage': false, 'href': 'https://drive.google.com/drive/folders/1wxiwOIVzsYhHwo3btSFjpyURDEN64KBW?usp\x3dsharing', 'title': 'AGI'}, {'isCurrentPage': false, 'href': 'https://drive.google.com/file/d/11hELB-wtiuSkQcUqzX0MkWbS8jsAv4Gm/view?usp\x3dsharing', 'title': 'TSMS-AAS Software'}, {'isCurrentPage': false, 'href': 'https://tsbie.cgg.gov.in/login.do', 'title': 'TSBIE'}, {'isCurrentPage': false, 'href': 'https://scert.telangana.gov.in/', 'title': 'SCERT TS'}, {'isCurrentPage': false, 'href': 'http://www.projects.juliantrubin.com/', 'title': 'Science Projects'}, {'isCurrentPage': false, 'href': 'https://www.bse.telangana.gov.in/Index.aspx', 'title': 'DGE-Telangana-NMMS, NTSE'}, {'isCurrentPage': false, 'href': 'https://drive.google.com/drive/folders/1deXJuZSwDzI2couDGiILudxql4z_8FJE?usp\x3dsharing', 'title': 'Bonafide Software'}, {'isCurrentPage': false, 'href': 'https://drive.google.com/drive/folders/1UcBKS5UGqcUvfxIqWHzrhJzzzRplurcn?usp\x3dsharing', 'title': 'Gallery'}], 'mobile': false}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/942682586-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList3', 'sidebar-left-1', document.getElementById('LinkList3'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1', 'sidebar-left-1', document.getElementById('LinkList1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList2', 'sidebar-left-1', document.getElementById('LinkList2'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList6', 'sidebar-left-1', document.getElementById('LinkList6'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList8', 'sidebar-left-1', document.getElementById('LinkList8'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_StatsView', new _WidgetInfo('Stats1', 'sidebar-left-1', document.getElementById('Stats1'), {'title': 'Total Page views', 'showGraphicalCounter': true, 'showAnimatedCounter': true, 'showSparkline': false, 'statsUrl': '//tsmsignites.blogspot.com/b/stats?style\x3dBLACK_TRANSPARENT\x26timeRange\x3dALL_TIME\x26token\x3dAPq4FmBHnDam-YkKxV5MMS-apAxlSK45zghK3c310B-jyladrlPioCchxS95MyEHLxqtINt8wWxhFJ9L2HgP8kgLsYJZIjUogQ'}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_TranslateView', new _WidgetInfo('Translate1', 'sidebar-right-1', document.getElementById('Translate1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_BlogSearchView', new _WidgetInfo('BlogSearch1', 'sidebar-right-1', document.getElementById('BlogSearch1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList5', 'sidebar-right-1', document.getElementById('LinkList5'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList13', 'sidebar-right-1', document.getElementById('LinkList13'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList7', 'sidebar-right-1', document.getElementById('LinkList7'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList11', 'sidebar-right-1', document.getElementById('LinkList11'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList4', 'sidebar-right-1', document.getElementById('LinkList4'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList10', 'sidebar-right-1', document.getElementById('LinkList10'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_FollowByEmailView', new _WidgetInfo('FollowByEmail1', 'sidebar-right-1', document.getElementById('FollowByEmail1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1', 'sidebar-right-1', document.getElementById('Followers1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer-3', document.getElementById('Attribution1'), {}, 'displayModeFull'));
-</script>
-</body>
-</html>
+<macro:includable id='sections' var='col'>
+  <macro:if cond='data:col.num == 0'>
+  <macro:else/>
+    <b:section mexpr:class='data:col.class' mexpr:id='data:col.idPrefix + &quot;-1&quot;' preferred='yes' showaddelement='yes'/>
+
+    <macro:if cond='data:col.num &gt;= 2'>
+      <table border='0' cellpadding='0' cellspacing='0' mexpr:class='&quot;section-columns columns-&quot; + data:col.num'>
+      <tbody>
+      <tr>
+        <td class='first columns-cell'>
+          <b:section mexpr:class='data:col.class' mexpr:id='data:col.idPrefix + &quot;-2-1&quot;'/>
+        </td>
+
+        <td class='columns-cell'>
+          <b:section mexpr:class='data:col.class' mexpr:id='data:col.idPrefix + &quot;-2-2&quot;'/>
+        </td>
+
+        <macro:if cond='data:col.num &gt;= 3'>
+          <td class='columns-cell'>
+            <b:section mexpr:class='data:col.class' mexpr:id='data:col.idPrefix + &quot;-2-3&quot;'/>
+          </td>
+        </macro:if>
+
+        <macro:if cond='data:col.num &gt;= 4'>
+          <td class='columns-cell'>
+            <b:section mexpr:class='data:col.class' mexpr:id='data:col.idPrefix + &quot;-2-4&quot;'/>
+          </td>
+        </macro:if>
+      </tr>
+      </tbody>
+      </table>
+
+      <macro:if cond='data:col.includeBottom'>
+        <b:section mexpr:class='data:col.class' mexpr:id='data:col.idPrefix + &quot;-3&quot;' showaddelement='no'/>
+      </macro:if>
+    </macro:if>
+  </macro:if>
+</macro:includable>
+
+ <b:section-contents id='sidebar-left-1'>
+  <b:widget id='HTML3' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;script type=&#39;text/javascript&#39; src=&#39;//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js&#39;&gt;&lt;/script&gt;
+&lt;script type=&#39;text/javascript&#39; src=&#39;//m-misc.appspot.com/js/blogger-infinite-scrolling.js&#39;&gt;&lt;/script&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='PageList2' locked='false' title='' type='PageList'>
+    <b:widget-settings>
+      <b:widget-setting name='pageListJson'><![CDATA[{"link0":{"href":"https://drive.google.com/drive/folders/1AMNsjjqm-28dHX7uWKr0uLa2DE78Q9YN?usp=share_link","position":0,"title":"SSC Physical Science Revision Tests-2023"}}]]></b:widget-setting>
+      <b:widget-setting name='homeTitle'>Home</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <b:if cond='data:mobile'>
+      <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
+        <b:loop values='data:links' var='link'>
+          <option expr:value='data:link.href'>
+            <b:attr cond='data:link.isCurrentPage' name='selected' value='selected'/>
+            <data:link.title/>
+          </option>
+        </b:loop>
+      </select>
+      <span class='pagelist-arrow'>&amp;#9660;</span>
+    <b:else/>
+      <ul>
+        <b:loop values='data:links' var='link'>
+          <li>
+            <b:class cond='data:link.isCurrentPage' name='selected'/>
+            <a expr:href='data:link.href'><data:link.title/></a>
+          </li>
+        </b:loop>
+      </ul>
+    </b:if>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='LinkList3' locked='false' title='Telangana Online Classess' type='LinkList'>
+    <b:widget-settings>
+      <b:widget-setting name='link-3'>https://www.scert.telangana.gov.in/Worksheets_24082020/mobile/index.html</b:widget-setting>
+      <b:widget-setting name='sorting'>NONE</b:widget-setting>
+      <b:widget-setting name='link-4'>https://www.scert.telangana.gov.in/Worksheets_27102020/mobile/index.html</b:widget-setting>
+      <b:widget-setting name='text-1'>T-SAT Online Classess</b:widget-setting>
+      <b:widget-setting name='link-1'>https://www.tsat.tv/home</b:widget-setting>
+      <b:widget-setting name='text-0'>DD-YADAGIRI Online Classess</b:widget-setting>
+      <b:widget-setting name='link-2'>https://epathshala.nic.in/epathshala.php?ln=en</b:widget-setting>
+      <b:widget-setting name='text-3'>SCERT-Work Sheets-I</b:widget-setting>
+      <b:widget-setting name='link-0'>https://www.youtube.com/channel/UC6V4nVa0CQkoLZUlg9drmZA</b:widget-setting>
+      <b:widget-setting name='text-2'>NCERT-ePathshala For All</b:widget-setting>
+      <b:widget-setting name='text-4'>SCERT-Work Sheets-II</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+
+<b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+ <div class='widget-content'>
+   <ul>
+     <b:loop values='data:links' var='link'>
+       <li><a expr:href='data:link.target'><data:link.name/></a></li>
+     </b:loop>
+   </ul>
+   <b:include name='quickedit'/>
+ </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='LinkList1' locked='false' title='TELANGANA MODEL SCHOOLS' type='LinkList'>
+    <b:widget-settings>
+      <b:widget-setting name='sorting'>NONE</b:widget-setting>
+      <b:widget-setting name='text-1'>TSMS Webinar Classess For Junior Inter</b:widget-setting>
+      <b:widget-setting name='link-1'>https://www.youtube.com/channel/UCQJcqzEqa5I7qV49alDoPOA</b:widget-setting>
+      <b:widget-setting name='text-0'>TSMS Webinar Classess For Senior Inter</b:widget-setting>
+      <b:widget-setting name='link-0'>https://www.youtube.com/channel/UCr4y04v-xg5r8cQoiy3qNhA</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+
+<b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+ <div class='widget-content'>
+   <ul>
+     <b:loop values='data:links' var='link'>
+       <li><a expr:href='data:link.target'><data:link.name/></a></li>
+     </b:loop>
+   </ul>
+   <b:include name='quickedit'/>
+ </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='LinkList2' locked='false' title='TSBIE-DD-YADAGIRI Online Classess' type='LinkList'>
+    <b:widget-settings>
+      <b:widget-setting name='text-10'>Economics-II-Year</b:widget-setting>
+      <b:widget-setting name='sorting'>NONE</b:widget-setting>
+      <b:widget-setting name='link-1'>https://www.youtube.com/c/DoordarshanYADAGIRI/search?query=HINDI</b:widget-setting>
+      <b:widget-setting name='link-2'>https://www.youtube.com/playlist?list=PLpEjF93WjeZ27159fVLEuh5XArzMAyl_n</b:widget-setting>
+      <b:widget-setting name='link-0'>https://www.youtube.com/playlist?list=PLpEjF93WjeZ2wIfqcQHzifoF6uJ5YNN8y</b:widget-setting>
+      <b:widget-setting name='link-11'>https://www.youtube.com/playlist?list=PLpEjF93WjeZ2T42lN-PbD_9laRRr7ZUZE</b:widget-setting>
+      <b:widget-setting name='link-10'>https://www.youtube.com/playlist?list=PLpEjF93WjeZ10seRwgwb8QgV1bDPDsH3C</b:widget-setting>
+      <b:widget-setting name='text-9'>Commerce-II-Year</b:widget-setting>
+      <b:widget-setting name='link-9'>https://www.youtube.com/playlist?list=PLpEjF93WjeZ1kgNhzb5xJ47hImury0jWw</b:widget-setting>
+      <b:widget-setting name='text-8'>Zoology-II-Year</b:widget-setting>
+      <b:widget-setting name='link-7'>https://www.youtube.com/playlist?list=PLpEjF93WjeZ2NHlOxM0GODBIj1HxRqSA_</b:widget-setting>
+      <b:widget-setting name='link-8'>https://www.youtube.com/playlist?list=PLpEjF93WjeZ31uP5PHHWZNh1A3Wbo1Md4</b:widget-setting>
+      <b:widget-setting name='link-5'>https://www.youtube.com/playlist?list=PLpEjF93WjeZ09jfjdeInc_JvV8652rlZV</b:widget-setting>
+      <b:widget-setting name='link-6'>https://www.youtube.com/playlist?list=PLpEjF93WjeZ1vvtcrHGtB7EZ0VXs6QiHc</b:widget-setting>
+      <b:widget-setting name='link-3'>https://www.youtube.com/playlist?list=PLpEjF93WjeZ3wRMpyjGo1k3vUTGj-Fh1c</b:widget-setting>
+      <b:widget-setting name='link-4'>https://www.youtube.com/playlist?list=PLpEjF93WjeZ3pTE9VG1MHP9cEFPXMjo8C</b:widget-setting>
+      <b:widget-setting name='text-1'>Hindi-II-Year</b:widget-setting>
+      <b:widget-setting name='text-0'>Telugu-II-Year</b:widget-setting>
+      <b:widget-setting name='text-3'>Mathematics-II A</b:widget-setting>
+      <b:widget-setting name='text-2'>English-II-Year</b:widget-setting>
+      <b:widget-setting name='text-5'>Physics-II-Year</b:widget-setting>
+      <b:widget-setting name='text-4'>Mathematics-II B</b:widget-setting>
+      <b:widget-setting name='text-7'>Botany-II-Year</b:widget-setting>
+      <b:widget-setting name='text-6'>Chemistry-II-Year</b:widget-setting>
+      <b:widget-setting name='text-11'>Civics-II-Year</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+
+<b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+ <div class='widget-content'>
+   <ul>
+     <b:loop values='data:links' var='link'>
+       <li><a expr:href='data:link.target'><data:link.name/></a></li>
+     </b:loop>
+   </ul>
+   <b:include name='quickedit'/>
+ </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='LinkList6' locked='false' title='SCHOLARSHIPS' type='LinkList'>
+    <b:widget-settings>
+      <b:widget-setting name='sorting'>NONE</b:widget-setting>
+      <b:widget-setting name='text-1'>National Scholarships</b:widget-setting>
+      <b:widget-setting name='link-1'>https://scholarships.gov.in/</b:widget-setting>
+      <b:widget-setting name='text-0'>telangana e-pass.-Scholarships</b:widget-setting>
+      <b:widget-setting name='link-0'>https://telanganaepass.cgg.gov.in/</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+
+<b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+ <div class='widget-content'>
+   <ul>
+     <b:loop values='data:links' var='link'>
+       <li><a expr:href='data:link.target'><data:link.name/></a></li>
+     </b:loop>
+   </ul>
+   <b:include name='quickedit'/>
+ </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='LinkList8' locked='false' title='FOR EMPLOYEES' type='LinkList'>
+    <b:widget-settings>
+      <b:widget-setting name='link-3'>https://eportal.incometax.gov.in/iec/foservices/#/login</b:widget-setting>
+      <b:widget-setting name='sorting'>NONE</b:widget-setting>
+      <b:widget-setting name='link-4'>https://goir.telangana.gov.in/</b:widget-setting>
+      <b:widget-setting name='text-1'>CPS-Guidelines</b:widget-setting>
+      <b:widget-setting name='link-1'>https://treasury.telangana.gov.in/docs_old/nps/CPS%20-%20GUIDE%20LINES.pdf</b:widget-setting>
+      <b:widget-setting name='text-0'>CPS - Statement</b:widget-setting>
+      <b:widget-setting name='link-2'>https://treasury.telangana.gov.in/docs_old/nps/Gratuity_guidlines.PDF</b:widget-setting>
+      <b:widget-setting name='text-3'>Income Tax-e-Filling Home Page</b:widget-setting>
+      <b:widget-setting name='link-0'>https://cra-nsdl.com/CRA/</b:widget-setting>
+      <b:widget-setting name='text-2'>CPS-Gratuity_guidelines</b:widget-setting>
+      <b:widget-setting name='text-4'>GOs issued by the Govt of Telangana</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+
+<b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+ <div class='widget-content'>
+   <ul>
+     <b:loop values='data:links' var='link'>
+       <li><a expr:href='data:link.target'><data:link.name/></a></li>
+     </b:loop>
+   </ul>
+   <b:include name='quickedit'/>
+ </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='Stats1' locked='false' title='Total Page views' type='Stats'>
+    <b:widget-settings>
+      <b:widget-setting name='showGraphicalCounter'>true</b:widget-setting>
+      <b:widget-setting name='showAnimatedCounter'>true</b:widget-setting>
+      <b:widget-setting name='showSparkline'>false</b:widget-setting>
+      <b:widget-setting name='sparklineStyle'>BLACK_TRANSPARENT</b:widget-setting>
+      <b:widget-setting name='timeRange'>ALL_TIME</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <!-- Content is going to be visible when data will be fetched from server. -->
+    <div expr:id='data:widget.instanceId + &quot;_content&quot;' style='display: none;'>
+      <!-- Counter and image will be injected later via AJAX call. -->
+      <b:if cond='data:showSparkline'>
+        <script src='https://www.gstatic.com/charts/loader.js' type='text/javascript'/>
+        <span expr:id='data:widget.instanceId + &quot;_sparklinespan&quot;' style='display:inline-block; width:75px; height:30px'/>
+      </b:if>
+      <span expr:class='&quot;counter-wrapper &quot; + (data:showGraphicalCounter ? &quot;graph-counter-wrapper&quot; : &quot;text-counter-wrapper&quot;)' expr:id='data:widget.instanceId + &quot;_totalCount&quot;'>
+      </span>
+      <b:include name='quickedit'/>
+    </div>
+  </div>
+</b:includable>
+  </b:widget>
+</b:section-contents><b:section-contents id='sidebar-left-2-1'/><b:section-contents id='sidebar-left-2-2'/><b:section-contents id='sidebar-left-3'/><b:section-contents id='sidebar-right-1'>
+  <b:widget id='HTML4' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;script type=&#39;text/javascript&#39; src=&#39;//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js&#39;&gt;&lt;/script&gt;
+&lt;script type=&#39;text/javascript&#39;&gt;
+(function(a){function h(){g||(g=!0,d?(b.find(&quot;a&quot;).hide(),b.find(&quot;img&quot;).show(),a.ajax(d,{dataType:&quot;html&quot;}).done(function(c){var c=a(&quot;&lt;div&gt;&lt;/div&gt;&quot;).append(c.replace(j,&quot;&quot;)),e=c.find(&quot;a.blog-pager-older-link&quot;);e?d=e.attr(&quot;href&quot;):(d=&quot;&quot;,b.hide());c=c.find(i).children();a(i).append(c);window._gaq&amp;&amp;window._gaq.push([&quot;_trackPageview&quot;,d]);window.gapi&amp;&amp;window.gapi.plusone&amp;&amp;window.gapi.plusone.go&amp;&amp;window.gapi.plusone.go();window.disqus_shortname&amp;&amp;a.getScript(&quot;http://&quot;+window.disqus_shortname+&quot;.disqus.com/blogger_index.js&quot;);
+window.FB&amp;&amp;window.FB.XFBML&amp;&amp;window.FB.XFBML.parse&amp;&amp;window.FB.XFBML.parse();b.find(&quot;img&quot;).hide();b.find(&quot;a&quot;).show();g=!1})):b.hide())}function k(){var a=Math.max(f.height(),l.height(),document.documentElement.clientHeight),b=f.scrollTop()+f.height();0&gt;a-b&amp;&amp;h()}var d=&quot;&quot;,b=null,i=&quot;div.blog-posts&quot;,g=!1,f=a(window),l=a(document),j=/&lt;script\b[^&lt;]*(?:(?!&lt;\/script&gt;)&lt;[^&lt;]*)*&lt;\/script&gt;/gi;a(document).ready(function(){if(&quot;item&quot;!=_WidgetManager._GetAllData().blog.pageType&amp;&amp;(d=a(&quot;a.blog-pager-older-link&quot;).attr(&quot;href&quot;))){var c=
+a(&#39;&lt;a href=&quot;javascript:;&quot; &gt;Load more posts&lt;/a&gt;&#39;);c.click(h);var e=a(&#39;&lt;img src=&quot;https://raw.github.com/techirsh/infinite-scroll-css-styles/master/images/fb-style-loader.gif&quot; style=&quot;display: none;&quot;&gt;&#39;);f.scroll(k);b=a(&#39;&lt;div class=&quot;techirshloader&quot;&gt;&lt;/div&gt;&#39;);b.append(c);b.append(e);b.insertBefore(a(&quot;#blog-pager&quot;));a(&quot;#blog-pager&quot;).hide()}})})(jQuery);
+&lt;/script&gt;
+&lt;!-- infinite scroll style by www.techirsh.com --&gt;
+&lt;style&gt;
+.techirshloader a{text-decoration:none;display:block;width:100%;color:#3772AB;}
+.techirshloader{border:2px solid #3772AB;font-family:arial, helvetica, sans-serif; padding: 8px 8px 8px 8px; font-weight:bold; text-align: center; color: #3772AB;}
+.techirshloader a:hover{color: #000000;}
+&lt;/style&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='HTML1' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<div class="rainbow"><div id="tb-subscribe-css"><div class="tb-subscribe-wrapper"><div class="tb-subscribe-wrapper-head">Join Our Newsletter</div>Subscribe to our mailing list and get fresh high quality updates for lifetime.<br /><div class="tb-subscribe-form"><form action="https://feedburner.google.com/fb/a/mailverify?uri=Tsmsignitesin" class="tb-subscribe-form" method="post" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=Tsmsignitesin', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" target="popupwindow"><input name="uri" type="hidden" value="Tsmsignitesin" /><input name="loc" type="hidden" value="en_US" /><input autocomplete="off" class="tb-subscribe-css-email-field" name="email" placeholder="Enter your email address" /><input class="tb-subscribe-css-button" title="" type="submit" value="Submit" /></form></div></div></div></div>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='Translate1' locked='false' title='Translate' type='Translate'>
+    <b:widget-settings>
+      <b:widget-setting name='displayMode'>HORIZONTAL</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div id='google_translate_element'/>
+  <script>
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: &#39;<data:pageLanguage/>&#39;,
+        autoDisplay: &#39;true&#39;,
+        layout: google.translate.TranslateElement.InlineLayout.<data:layout/>
+      }, &#39;google_translate_element&#39;);
+    }
+  </script>
+  <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'/>
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='LinkList5' locked='false' title='Science Projects links' type='LinkList'>
+    <b:widget-settings>
+      <b:widget-setting name='link-5'>http://www.olabs.edu.in/</b:widget-setting>
+      <b:widget-setting name='link-6'>https://drive.google.com/drive/folders/1UPz1CRo9nDsuefs21fCxjsj3X5TrFF3F?usp=share_link</b:widget-setting>
+      <b:widget-setting name='link-3'>https://www.juliantrubin.com/electricityprojects.html</b:widget-setting>
+      <b:widget-setting name='link-4'>http://www.inspireawards-dst.gov.in/</b:widget-setting>
+      <b:widget-setting name='text-1'>Biology Projects</b:widget-setting>
+      <b:widget-setting name='text-0'> Online INSPIRE gov.in</b:widget-setting>
+      <b:widget-setting name='text-3'>Electricity Projects</b:widget-setting>
+      <b:widget-setting name='text-2'>Earth Sciences and Geology Science Projects</b:widget-setting>
+      <b:widget-setting name='text-5'>OLABS - Amrita Vishwa Vidyapeetham</b:widget-setting>
+      <b:widget-setting name='text-4'>Inspire Awards Site</b:widget-setting>
+      <b:widget-setting name='text-6'>Vishweshwaraya Museum Banglore</b:widget-setting>
+      <b:widget-setting name='sorting'>ALPHABETICAL</b:widget-setting>
+      <b:widget-setting name='link-1'>https://www.juliantrubin.com/biologyprojects.html</b:widget-setting>
+      <b:widget-setting name='link-2'>https://www.juliantrubin.com/earthsciencesprojects.html</b:widget-setting>
+      <b:widget-setting name='link-0'>http://www.online-inspire.gov.in/</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+
+<b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+ <div class='widget-content'>
+   <ul>
+     <b:loop values='data:links' var='link'>
+       <li><a expr:href='data:link.target'><data:link.name/></a></li>
+     </b:loop>
+   </ul>
+   <b:include name='quickedit'/>
+ </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='LinkList7' locked='false' title='Tentative PGTs &amp;amp; TGTs Seniority Lists' type='LinkList'>
+    <b:widget-settings>
+      <b:widget-setting name='link-7'>https://drive.google.com/drive/folders/1-_j1L7VpnWeqPlpLnbf4F3xljacDFoWJ?usp=sharing</b:widget-setting>
+      <b:widget-setting name='link-5'>https://drive.google.com/drive/folders/1eQYlyamv2BPPKIddU9q-Jc0bgfmjrE3l?usp=sharing</b:widget-setting>
+      <b:widget-setting name='link-6'>https://drive.google.com/drive/folders/14XO0SDhCxPHOBd5cFmLaIU3BypIVa0zV?usp=sharing</b:widget-setting>
+      <b:widget-setting name='link-3'>https://drive.google.com/file/d/1aYpVAIhqn16MR41dWfVPc19ossZE3dSO/view?usp=sharing</b:widget-setting>
+      <b:widget-setting name='link-4'>https://drive.google.com/drive/folders/12QzZbmCD8rLclTJg4UGWAnE3DzU8swyE?usp=sharing</b:widget-setting>
+      <b:widget-setting name='text-1'>Tentative All zones PGTs Seniority Lists</b:widget-setting>
+      <b:widget-setting name='text-0'>TSMS Expected Principals Promotion List</b:widget-setting>
+      <b:widget-setting name='text-3'>TSMS  Staff  Details  Zone-VI </b:widget-setting>
+      <b:widget-setting name='text-2'>TSMS  Staff  Details  Zone-V</b:widget-setting>
+      <b:widget-setting name='text-5'>PGTs Seniority lists -Zone-V</b:widget-setting>
+      <b:widget-setting name='text-4'>TGTs Seniority Lists Zone-V</b:widget-setting>
+      <b:widget-setting name='text-7'> PGTs Seniority lists -Zone-VI</b:widget-setting>
+      <b:widget-setting name='text-6'>TGTs Seniority Lists Zone-VI</b:widget-setting>
+      <b:widget-setting name='sorting'>NONE</b:widget-setting>
+      <b:widget-setting name='link-1'>https://drive.google.com/file/d/1UEo8tKwyr7GYPjWA1lQCF4FaugkJJUKu/view?usp=sharing</b:widget-setting>
+      <b:widget-setting name='link-2'>https://drive.google.com/file/d/1UG2oX0PwgT50xxBsKioWLN54KTKS8Xcs/view?usp=sharing</b:widget-setting>
+      <b:widget-setting name='link-0'>https://drive.google.com/file/d/1eYLVWXzbPRTYGlQ_9zzABUc19ApRU2Vw/view?usp=sharing</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+
+<b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+ <div class='widget-content'>
+   <ul>
+     <b:loop values='data:links' var='link'>
+       <li><a expr:href='data:link.target'><data:link.name/></a></li>
+     </b:loop>
+   </ul>
+   <b:include name='quickedit'/>
+ </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='LinkList4' locked='false' title='Departmental Tests Bulletins' type='LinkList'>
+    <b:widget-settings>
+      <b:widget-setting name='sorting'>NONE</b:widget-setting>
+      <b:widget-setting name='text-1'>Departmental Tests Results</b:widget-setting>
+      <b:widget-setting name='link-1'>https://drive.google.com/drive/folders/1sM1e4s0SSC9M4CHPt7wb0HyE8zl9-3Ap?usp=sharing</b:widget-setting>
+      <b:widget-setting name='text-0'>Departmental test Results for All Departments from 2007 to 2020</b:widget-setting>
+      <b:widget-setting name='link-0'>https://drive.google.com/file/d/16bCSSEKmjR1eUnPqbfL0SFHBn_snavlL/view?usp=sharing</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+
+<b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+ <div class='widget-content'>
+   <ul>
+     <b:loop values='data:links' var='link'>
+       <li><a expr:href='data:link.target'><data:link.name/></a></li>
+     </b:loop>
+   </ul>
+   <b:include name='quickedit'/>
+ </div>
+</b:includable>
+  </b:widget>
+</b:section-contents><b:section-contents id='footer-1'>
+  <b:widget id='Profile2' locked='false' title='Created By M.Venkateshwarlu PGT in Chemistry TS Model School Marriguda 9010645495' type='Profile'>
+    <b:widget-settings>
+      <b:widget-setting name='showaboutme'>true</b:widget-setting>
+      <b:widget-setting name='showlocation'>true</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+    <b:if cond='data:title != &quot;&quot;'>
+      <h2><data:title/></h2>
+    </b:if>
+    <div class='widget-content'>
+    <b:if cond='data:team'> <!-- team blog profile -->
+      <ul>
+        <b:loop values='data:authors' var='i'>
+          <li><a class='profile-name-link g-profile' expr:href='data:i.userUrl' expr:style='&quot;background-image: url(&quot; + data:i.profileLogo + &quot;);&quot;'><data:i.display-name/></a></li>
+        </b:loop>
+      </ul>
+
+    <b:else/> <!-- normal blog profile -->
+
+      <b:if cond='data:photo.url != &quot;&quot;'>
+        <a expr:href='data:userUrl'><img class='profile-img' expr:alt='data:messages.myPhoto' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/></a>
+      </b:if>
+
+      <dl class='profile-datablock'>
+        <dt class='profile-data'>
+          <a class='profile-name-link g-profile' expr:href='data:userUrl' expr:style='&quot;background-image: url(&quot; + data:profileLogo + &quot;);&quot;' rel='author'>
+            <data:displayname/>
+          </a>
+        </dt>
+
+        <b:if cond='data:showlocation'>
+          <dd class='profile-data'><data:location/></dd>
+        </b:if>
+
+        <b:if cond='data:aboutme != &quot;&quot;'><dd class='profile-textblock'><data:aboutme/></dd></b:if>
+      </dl>
+      <a class='profile-link' expr:href='data:userUrl' rel='author'><data:viewProfileMsg/></a>
+    </b:if>
+
+     <b:include name='quickedit'/>
+    </div>
+  </b:includable>
+  </b:widget>
+</b:section-contents><b:section-contents id='footer-2-1'/><b:section-contents id='footer-2-2'/><b:section-contents id='footer-2-3'/></html>
